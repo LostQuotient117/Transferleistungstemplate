@@ -1,0 +1,5 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{Abbildungsverzeichnis}{II}{section*.2}%
+\contentsline {section}{Abkürzungsverzeichnis}{III}{section*.5}%
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {section}{Quellenverzeichnis}{IV}{section*.6}%

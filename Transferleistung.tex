@@ -1,0 +1,135 @@
+\documentclass[12pt,bibtotoc]{article}
+\usepackage[table]{xcolor}
+\usepackage[ngerman]{babel} % Für Silbentrennung
+\usepackage[utf8]{inputenc} % Um Umlaute und Sonderzeichen nutzen zu können
+\usepackage[a4paper,
+lmargin={2cm},
+rmargin={2cm},
+tmargin={2cm},
+bmargin={3cm}]{geometry} % Für das Layout
+\usepackage{setspace} % Für den Zeilenabstand
+\setstretch{1.25}
+\usepackage{graphicx} % Um Bilder einzufügen
+\usepackage{wrapfig} % Um Bilder im Fließtext einzubinden
+\usepackage{csquotes} % Um Text in Anführungsstriche zu setzen
+\usepackage{mathptmx} % Ähnlich zu Times New Roman
+\usepackage{fancyhdr} % Um den Header einzufügen
+\usepackage{pdfpages} % Um die Titelseite einbinden
+\usepackage{hyperref} % Um Verlinkungen einfügen
+\usepackage{acronym} % Um Akronyme zu definieren
+\usepackage{textcomp} % Um spezielle Zeichen verwenden zu können (z.B. °, µ)
+\usepackage{subcaption} % Um mehrere Bilder zusammen einzustellen und Links zu Abbildungen zu korrigieren
+\usepackage{float}
+\floatplacement{figure}{H}
+
+
+\usepackage[backend=bibtex, citestyle=ieee]{biblatex} % Um Literatur einzufügen
+\bibliography{Quellenverzeichnis}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength\headheight{59.76491pt}
+\renewcommand{\headrulewidth}{0pt} % Um schwarze Linie zu entfernen
+\chead{\includegraphics[width=\textwidth]{Resources/header.png}} % Grafik einfügen
+\cfoot{\thepage}
+
+\newcounter{romanBeginningEnd} % Um Römische Seitenzahl zu speichern
+
+% Sektionen refernezen anpassen
+\addto\extrasngerman{%
+	\renewcommand{\sectionautorefname}{siehe}%
+	\let\subsectionautorefname\sectionautorefname%
+	\let\subsubsectionautorefname\sectionautorefname%
+}
+
+
+
+\begin{document}
+    \pagenumbering{gobble}
+    \include{cover}
+
+	%\includepdf[pages=-]{Resources/cover}
+	
+	\setcounter{page}{1} % Römische Seitenzahlen
+	\pagenumbering{Roman}
+	
+	\tableofcontents %Inhaltsverzeichnis
+	\newpage
+	
+	\setcounter{secnumdepth}{0} % Keine Numerierung von Überschriften
+	\clearpage
+	\phantomsection
+	\addcontentsline{toc}{section}{\listfigurename} % Abbildungsverzeichnis im Inhaltsverzeichnis anzeigen
+	\listoffigures
+	\clearpage
+	\phantomsection
+	%\addcontentsline{toc}{section}{\listtablename} % Tabellenverzeichnis im Inhaltsverzeichnis anzeigen
+	%\listoftables
+	\newpage
+	\section{Abkürzungsverzeichnis}
+	% Abkürzungen
+	\begin{acronym}[LängsteAbkürzung] % Für Formatierung längste Abkürzung eintragen
+	\acro{ac:Label}[knk]{knk Business Software AG}
+	\end{acronym}
+	\newpage %Ich werde ganz sicherlich keine Abkürzungen einbauen um meine Transferlistung mit weniger Seiten zu bestücken. DAFUQ
+	
+	\setcounter{secnumdepth}{3} % Überschriften wieder numerieren
+	
+	\setcounter{romanBeginningEnd}{\the\value{page}} % Speichern der römischen Seitenzahl
+	\setcounter{page}{1} % Mit Arabischen Seitenzahlen wieder bei 1 anfangen
+	\pagenumbering{arabic}
+	
+	% ###############################################################
+	% Tipps und Tricks:
+	%\section{Begriffserklärung}
+	%Beispieltext
+	%\subsection{Was ist der Fachkräftemangel}
+	%\newpage
+	
+	
+	%\begin{figure}[h!]
+		%\includegraphics[keepaspectratio,width=\textwidth,height=\textheight]{statistaEntwicklungFachkraefteindex.png} \renewcommand{\figurename}{Abb.}
+		%\caption{\small Entwicklung des Fachkr{\"a}fteindex in Deutschland vom 1. Quartal 2015 bis zum 4. Quartal 2022; Hays über Statista, 2023}
+	%\end{figure}
+	
+	%\cite{knk-info.2023}
+	
+	%\newpage
+	
+	%	\begin{singlespace}
+	%	Es muss insbesondere auf zwei zentrale Herausforderungen reagiert werden:
+	%	\begin{itemize}
+	%		\item stetig neue Mitarbeiter und Mitarbeiterinnen für sich zu gewinnen und
+	%		\item bestehende Mitarbeiter möglichst langfristig an das eigene Unternehmen zu binden bzw. ihre Loyalit{\"a}t zu erhalten (wenn nicht angesichts kompetitiver Abwerbungsversuche sogar noch weiter zu erhöhen)
+	%	\end{itemize}
+	%\end{singlespace}
+	
+	%(\cite{Oelsnitz.2023}, Seite 4-5)
+	
+	%\begin{quote}
+	%	,,Der aktuelle Wandel in Wirtschaft und Gesellschaft führt zu Umw{\"a}lzungen in einem bislang nicht gekannten Ausmaß. Strukturen, Prozesse, Aufgabenzuschnitte ver{\"a}ndern sich
+	%	grundlegend – und dies in nahezu allen Branchen und Gesch{\"a}ftsbereichen.''\newline (\cite{Longmu.2021}, Seite 3)
+	%\end{quote}
+
+	%################################################################
+	%Ab hier Inalt
+	\section{Einleitung}
+	
+	% ###############################################################
+	
+	\newpage
+	\pagenumbering{Roman}
+	\setcounter{page}{\theromanBeginningEnd} % Römische Seitenzahlen fortsetzen
+	\setcounter{secnumdepth}{0} % Nummerierung der Überschriften entfernt
+	\section{Quellenverzeichnis}
+	%\includepdf[pages=-]{Resources/cover}
+	\setcounter{secnumdepth}{3} % Überschriften wieder numerieren (Für den Anhang)
+	\printbibliography[heading=none]
+	\newpage
+	\appendix
+	\clearpage
+	\addcontentsline{toc}{part}{Anhang}
+	%\includepdf[pages=-,
+	%picturecommand*={\label{MEINPDFDOKUMENT}}]{Experteninterview mit Carsten Scheid ausgefüllt.pdf}
+
+\end{document}
