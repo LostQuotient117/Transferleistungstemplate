@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex Transferleistung"] 1722964958.67813 "Transferleistung.aux" "Transferleistung.bbl" "Transferleistung" 1722965032.66798 0
+["bibtex Transferleistung"] 1722965556.37535 "Transferleistung.aux" "Transferleistung.bbl" "Transferleistung" 1722965559.96479 0
   "./Quellenverzeichnis.bib" 1722964810 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "./Transferleistung-blx.bib" 1722965031 343 3ed23ee6de99140f139220c4e7012957 ""
+  "./Transferleistung-blx.bib" 1722965558 343 3ed23ee6de99140f139220c4e7012957 ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1679055682 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "Transferleistung.aux" 1722965031 1004 59926468f4d48c7ff9c867e5fef4b74e "pdflatex"
-  "cover.aux" 1722965031 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
+  "Transferleistung.aux" 1722965558 1566 b0a68002264292fd76cd19d156f776c5 "pdflatex"
+  "cover.aux" 1722965558 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
   (generated)
   "Transferleistung.bbl"
   "Transferleistung.blg"
   (rewritten before read)
-["pdflatex"] 1722965029.09419 "c:/Users/Jannick.Gottschalk/OneDrive - knk Business Software AG/Dokumente/Nak/Transferleistung/Dritte/Transferleistung Hosting/Transferleistung Hosting/Transferleistung.tex" "Transferleistung.pdf" "Transferleistung" 1722965032.67009 0
+["pdflatex"] 1722965556.7451 "c:/Users/Jannick.Gottschalk/OneDrive - knk Business Software AG/Dokumente/Nak/Transferleistung/Dritte/Transferleistung Hosting/Transferleistung Hosting/Transferleistung.tex" "Transferleistung.pdf" "Transferleistung" 1722965559.96653 0
   "C:/Users/Jannick.Gottschalk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1722963461 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1728.pk" 1714118931 42516 eb7a217606bdc3d3488f9bb7b8df11e7 ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1722963807 24231181 1bff85f5996800aa5a2823f98e80182b ""
@@ -134,15 +134,15 @@
   "C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
   "Resources/header.png" 1702477766 78298 64744aa1db834704c6207f178aa3ac12 ""
-  "Transferleistung.aux" 1722965031 1004 59926468f4d48c7ff9c867e5fef4b74e "pdflatex"
-  "Transferleistung.bbl" 1722964958 533 205fa30ee4c093bb2bc4676324ab99fd "bibtex Transferleistung"
-  "Transferleistung.lof" 1722965031 30 dd9a1bdf2f8dbad8adb0552ea4fb4223 "pdflatex"
-  "Transferleistung.out" 1722965031 528 a7cdb45370b22b50116418dd1447dcba "pdflatex"
-  "Transferleistung.run.xml" 1722965031 2701 826e794a3e1042175e009e38ab8bdc33 "pdflatex"
-  "Transferleistung.tex" 1722964953 4973 1649eb35a1d4165fe27cf8a807fa0ced ""
-  "Transferleistung.toc" 1722965031 287 1ff8113fa6c5d42cd83acfeff4fe558d "pdflatex"
-  "c:/Users/Jannick.Gottschalk/OneDrive - knk Business Software AG/Dokumente/Nak/Transferleistung/Dritte/Transferleistung Hosting/Transferleistung Hosting/Transferleistung.tex" 1722964953 4973 1649eb35a1d4165fe27cf8a807fa0ced ""
-  "cover.aux" 1722965031 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
+  "Transferleistung.aux" 1722965558 1566 b0a68002264292fd76cd19d156f776c5 "pdflatex"
+  "Transferleistung.bbl" 1722965556 533 205fa30ee4c093bb2bc4676324ab99fd "bibtex Transferleistung"
+  "Transferleistung.lof" 1722965558 30 dd9a1bdf2f8dbad8adb0552ea4fb4223 "pdflatex"
+  "Transferleistung.out" 1722965558 984 70ce8ffb4e78acd5aca0b0fb2f8bf6ab "pdflatex"
+  "Transferleistung.run.xml" 1722965558 2701 826e794a3e1042175e009e38ab8bdc33 "pdflatex"
+  "Transferleistung.tex" 1722965552 5181 d0bc73b35e7e1b43ad35a5048c46e383 ""
+  "Transferleistung.toc" 1722965558 644 9486d7b6b6f556b4e4d372c3cc525212 "pdflatex"
+  "c:/Users/Jannick.Gottschalk/OneDrive - knk Business Software AG/Dokumente/Nak/Transferleistung/Dritte/Transferleistung Hosting/Transferleistung Hosting/Transferleistung.tex" 1722965552 5181 d0bc73b35e7e1b43ad35a5048c46e383 ""
+  "cover.aux" 1722965558 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
   "cover.tex" 1722965028 887 5c03787a991cd533283990d3f0b31fdc ""
   (generated)
   "Transferleistung-blx.bib"
