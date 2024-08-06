@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.6)  6 AUG 2024 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.6)  6 AUG 2024 19:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -784,7 +784,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 )
-<Resources/header.png, id=39, 661.47125pt x 75.78313pt>
+<Resources/header.png, id=107, 661.47125pt x 75.78313pt>
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
 Package pdftex.def Info: Resources/header.png  used on input line 49.
@@ -820,24 +820,42 @@ LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input li
 
 LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 72.
 
+
+LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 73.
+
+
+LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 73.
+
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 74.
+Package pdftex.def Info: Resources/header.png  used on input line 75.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
 [3
 
-]
+
+pdfTeX warning (ext4): destination with the same identifier (name{ac:Label}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.75 	\newpage
+               %Ich werde ganz sicherlich keine Abkürzungen einbauen um mei...]
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 129.
+Package pdftex.def Info: Resources/header.png  used on input line 161.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
  [1]
-
-LaTeX Warning: Empty bibliography on input line 136.
+Overfull \vbox (50.75676pt too high) has occurred while \output is active []
 
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 137.
+Package pdftex.def Info: Resources/header.png  used on input line 161.
+(pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
+ [2]
+
+LaTeX Warning: Empty bibliography on input line 168.
+
+File: Resources/header.png Graphic file (type png)
+<use Resources/header.png>
+Package pdftex.def Info: Resources/header.png  used on input line 169.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
 [4] (Transferleistung.aux (cover.aux))
  ***********
@@ -853,23 +871,23 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Transferleistung.out' has not changed.
-(rerunfilecheck)             Checksum: 70CE8FFB4E78ACD5ACA0B0FB2F8BF6AB;984.
+(rerunfilecheck)             Checksum: A651D56F4E6030FBA7779E5EED0F68B7;5117.
 Package logreq Info: Writing requests to 'Transferleistung.run.xml'.
 \openout1 = `Transferleistung.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21790 strings out of 474486
- 391776 string characters out of 5737620
- 1931542 words of memory out of 5000000
- 43753 multiletter control sequences out of 15000+600000
+ 21825 strings out of 474486
+ 392242 string characters out of 5737620
+ 1936542 words of memory out of 5000000
+ 43770 multiletter control sequences out of 15000+600000
  574223 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  75i,14n,81p,2049b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Jannick.Gottschalk\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Transferleistung.pdf (6 pages, 118263 bytes).
+Output written on Transferleistung.pdf (7 pages, 137405 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
