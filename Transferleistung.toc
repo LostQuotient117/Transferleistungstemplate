@@ -1,27 +1,26 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{Abbildungsverzeichnis}{II}{section*.2}%
 \contentsline {section}{Abkürzungsverzeichnis}{III}{section*.5}%
-\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Knk}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Hintergrund und Motivation}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Zielsetzung der Arbeit}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Knk}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Hintergrund, Motivation und Zielsetzung der Transferleistung}{1}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Anforderungsanalyse}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Erfassung der spezifischen Anforderungen von Knk und Kunden}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Technische und gesellschaftliche Anforderungen}{2}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Hosting-Modelle im Überblick}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}On-Premise}{2}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Cloud}{2}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}SaaS}{2}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Detaillierter Vergleich der Hosting-Modelle}{2}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Vor- und Nachteile jedes Modells}{2}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Aktuelle Trends und Entwicklungen}{2}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Entwicklung von Entscheidungskriterien}{2}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Gewichtung der Kriterien nach Relevanz}{2}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Unterstützung für Unternehmen und Kunden bei der Auswahl}{2}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Best Practices und Fallbeispiele}{2}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Praktische Beispiele aus der Industrie}{2}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Empfehlungen für die Entscheidungsfindung}{2}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Fazit}{2}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Zusammenfassung der Ergebnisse}{2}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Ausblick auf zukünftige Entwicklungen}{2}{subsection.7.2}%
+\contentsline {subsection}{\numberline {3.3}SaaS}{3}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Detaillierter Vergleich der Hosting-Modelle}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Vor- und Nachteile jedes Modells}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Aktuelle Trends und Entwicklungen}{3}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Entwicklung von Entscheidungskriterien}{3}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Gewichtung der Kriterien nach Relevanz}{3}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Unterstützung für Unternehmen und Kunden bei der Auswahl}{3}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Best Practices und Fallbeispiele}{3}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Praktische Beispiele aus der Industrie}{3}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Empfehlungen für die Entscheidungsfindung}{3}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Fazit}{3}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Zusammenfassung der Ergebnisse}{3}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Ausblick auf zukünftige Entwicklungen}{3}{subsection.7.2}%
 \contentsline {section}{Quellenverzeichnis}{IV}{section*.6}%

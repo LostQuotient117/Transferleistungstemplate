@@ -16,5 +16,83 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{knk-info.2023}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=KBSA}{%
+         family={Knk-Business-Software-AG},
+         familyi={K\bibinithyphendelim B\bibinithyphendelim
+  S\bibinithyphendelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KBSA1}
+    \strng{fullhash}{KBSA1}
+    \field{labelnamesource}{author}
+    \field{howpublished}{\url{https://knk.de/ueber/}}
+    \field{note}{Abgerufen am 12.08.2024}
+  \endentry
+
+  \entry{knk-kuendigtSaaS-an.2023}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=KBSA}{%
+         family={Knk-Business-Software-AG},
+         familyi={K\bibinithyphendelim B\bibinithyphendelim
+  S\bibinithyphendelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KBSA1}
+    \strng{fullhash}{KBSA1}
+    \field{labelnamesource}{author}
+  \field{howpublished}{\url{https://knk.de/produkt-neuheit-knk-kuendigt-knkmedia-saas-an/}}
+    \field{note}{Abgerufen am 12.08.2024}
+  \endentry
+
+  \entry{Murugesan.2016}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=MS}{%
+         family={Murugesan},
+         familyi={M\bibinitperiod},
+         given={San},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Bojanova},
+         familyi={B\bibinitperiod},
+         given={Irena},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=MS}{%
+         family={Murugesan},
+         familyi={M\bibinitperiod},
+         given={San},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Bojanova},
+         familyi={B\bibinitperiod},
+         given={Irena},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \keyw{Cloud}
+    \strng{namehash}{MSBI1}
+    \strng{fullhash}{MSBI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Encyclopedia of Cloud Computing}
+    \verb{doi}
+    \verb 10.1002/9781118821930.ch1
+    \endverb
+    \field{isbn}{9781118821978}
+    \field{note}{Abgerufen am 12.08.2024}
+    \field{pages}{1\bibrangedash 14}
+    \field{title}{Cloud Computing}
+    \field{year}{2016}
+  \endentry
+\enddatalist
 \endinput
