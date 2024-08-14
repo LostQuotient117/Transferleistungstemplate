@@ -47,6 +47,43 @@
     \field{note}{Abgerufen am 12.08.2024}
   \endentry
 
+  \entry{AlHayek.2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AWY}{%
+         family={{Al Hayek}},
+         familyi={A\bibinitperiod},
+         given={Wiam\bibnamedelima Yahea},
+         giveni={W\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=ARA}{%
+         family={{Abu Odeh}},
+         familyi={A\bibinitperiod},
+         given={Rasha\bibnamedelima Ahmad},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AWYARA1}
+    \strng{fullhash}{AWYARA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.30845/ijast.v10n4p7
+    \endverb
+    \field{issn}{22210997}
+    \field{number}{4}
+    \field{title}{Cloud ERP VS On-Premise ERP}
+    \field{volume}{10}
+    \verb{file}
+    \verb 17e26a3c-10e9-4e0f-ac9e-7cd714e7bcbf:C\:\\Users\\Jannick.Gottschalk\\
+    \verb AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\n0em
+    \verb p6z07yd50repz1m6xqq34lgt6y6r1ndmohi7zjrk4xu\\Citavi Attachments\\17e2
+    \verb 6a3c-10e9-4e0f-ac9e-7cd714e7bcbf.pdf:pdf
+    \endverb
+    \field{journaltitle}{International Journal of Applied Science and
+  Technology}
+    \field{year}{2020}
+  \endentry
+
   \entry{Murugesan.2016}{incollection}{}
     \name{author}{2}{}{%
       {{hash=MS}{%
