@@ -131,5 +131,37 @@
     \field{title}{Cloud Computing}
     \field{year}{2016}
   \endentry
+
+  \entry{Fisher.2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FC}{%
+         family={Fisher},
+         familyi={F\bibinitperiod},
+         given={Cameron},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FC1}
+    \strng{fullhash}{FC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.4236/ajibm.2018.89133
+    \endverb
+    \field{issn}{2164-5167}
+    \field{number}{09}
+    \field{pages}{1991\bibrangedash 2006}
+    \field{title}{Cloud versus On-Premise Computing}
+    \field{volume}{08}
+    \verb{file}
+    \verb 387ff7da-b1fe-487a-9008-8c15f1ae5727:C\:\\Users\\Jannick.Gottschalk\\
+    \verb AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\n0em
+    \verb p6z07yd50repz1m6xqq34lgt6y6r1ndmohi7zjrk4xu\\Citavi Attachments\\387f
+    \verb f7da-b1fe-487a-9008-8c15f1ae5727.pdf:pdf
+    \endverb
+    \field{journaltitle}{American Journal of Industrial and Business
+  Management}
+    \field{year}{2018}
+  \endentry
 \enddatalist
 \endinput
