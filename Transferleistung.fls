@@ -161,6 +161,10 @@ INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\captio
 INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.sty
@@ -316,11 +320,14 @@ INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\
 INPUT .\Transferleistung.lof
 INPUT .\Transferleistung.lof
 INPUT Transferleistung.lof
+INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 OUTPUT Transferleistung.lof
 INPUT .\Resources\header.png
 INPUT .\Resources\header.png
 INPUT .\Resources\header.png
 INPUT .\Resources\header.png
+INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\Resources\header.png
 INPUT .\Resources\header.png
 INPUT .\Resources\header.png
@@ -342,6 +349,17 @@ INPUT .\Resources\header.png
 INPUT .\Resources\header.png
 INPUT .\Resources\header.png
 INPUT C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT .\Content\Pictures\Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png
+INPUT .\Content\Pictures\Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png
+INPUT .\Content\Pictures\Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png
+INPUT .\Content\Pictures\Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png
+INPUT .\Content\Pictures\Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png
+INPUT .\Content\Pictures\Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png
+INPUT .\Content\Pictures\Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png
+INPUT .\Resources\header.png
+INPUT .\Resources\header.png
+INPUT .\Resources\header.png
+INPUT .\Resources\header.png
 INPUT .\Resources\header.png
 INPUT .\Resources\header.png
 INPUT .\Resources\header.png

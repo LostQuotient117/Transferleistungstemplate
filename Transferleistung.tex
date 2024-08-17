@@ -20,6 +20,12 @@ bmargin={3cm}]{geometry} % Für das Layout
 \usepackage{textcomp} % Um spezielle Zeichen verwenden zu können (z.B. °, µ)
 \usepackage{subcaption} % Um mehrere Bilder zusammen einzustellen und Links zu Abbildungen zu korrigieren
 \usepackage{float}
+\usepackage{placeins}
+
+%Anpassung für itemize:
+\usepackage{enumitem}
+\setlist[itemize]{itemsep=0pt, topsep=0pt, leftmargin=1.5em}
+
 \floatplacement{figure}{H}
 
 
@@ -98,13 +104,12 @@ bmargin={3cm}]{geometry} % Für das Layout
 	
 	%\newpage
 	
-	%	\begin{singlespace}
-	%	Es muss insbesondere auf zwei zentrale Herausforderungen reagiert werden:
-	%	\begin{itemize}
-	%		\item stetig neue Mitarbeiter und Mitarbeiterinnen für sich zu gewinnen und
-	%		\item bestehende Mitarbeiter möglichst langfristig an das eigene Unternehmen zu binden bzw. ihre Loyalit{\"a}t zu erhalten (wenn nicht angesichts kompetitiver Abwerbungsversuche sogar noch weiter zu erhöhen)
-	%	\end{itemize}
-	%\end{singlespace}
+	% \begin{figure}[H] %Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022
+	% 	\centering
+	% 	\includegraphics[keepaspectratio,width=\textwidth,height=\textheight]{"Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png"} 
+	% 	\renewcommand{\figurename}{Abb.}
+	% 	\caption{\small Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022}
+	% \end{figure}
 	
 	%(\cite{Oelsnitz.2023}, Seite 4-5)
 	
@@ -142,6 +147,7 @@ bmargin={3cm}]{geometry} % Für das Layout
 
 	\section{Anforderungsanalyse}
 	\subsection{Erfassung der spezifischen Anforderungen von Knk und Kunden}
+	%EI-Frage: Mir fällt keine ein. Thema streichen
 	%vlt auch subsubsection
 	\subsection{Technische und gesellschaftliche Anforderungen}
 
@@ -150,6 +156,7 @@ bmargin={3cm}]{geometry} % Für das Layout
 		Bei einem On-Premise-Modell handelt es sich um eine lokal installierte Software, die auf jedem Computer eines Benutzers installiert werden muss, um die gewünschten Funktionalitäten zur Verfügung zu stellen.
 		Meist sind auch die Daten, die eine Unternehmung für diese On-Premise-Sofware gebraucht auf lokalen oder Firmenweiten Datenbanken gespeichert \cite{AlHayek.2020}. 
 		\subsection{Cloud}
+		%auf jedenfall noch mehr über die einzelnen Sachen schreiben
 		%https://www.leanix.net/de/wiki/apm/saas-vs-cloud#What-is-cloud-based  Cloud ist überbegriff und SaaS ist eine unterkategorie. Das im SaaS-Kapitel hervorzeigen. 
 		Cloud erntet immer mehr aufmerksamkeit und wird weitesgehend adaptiert. Als paradigmenwechsel in der IT betrachtet, wird es schon für vielfältige Anwedungsbereiche sowohl im geschäftlichen aber auch im privaten und behördlichen Bereich angewendet. \cite{Murugesan.2016}.
 		\newline
@@ -181,31 +188,62 @@ bmargin={3cm}]{geometry} % Für das Layout
 		
 	\section{Detaillierter Vergleich der Hosting-Modelle}
 			Durch die stationäre Bereitstellung der Umgebung und einer erforderten Installation des Produktes auf jedem Gerät ist bei On-Premise eine gewisse Flexibilität, nicht gegeben.
-			Änderungen an der Software sorgen meist für einen gewissen Mehraufwand auf Seiten des Kunden und des Entwicklers. Dieser Mehraufwand ist bei Cloud nicht gegeben durch ein einfach nutzbares Browser-Interface. 
+			Änderungen an der Software sorgen meist für einen gewissen Mehraufwand auf Seiten des Kunden und des Entwicklers. Dieser Mehraufwand ist bei Cloud nicht gegeben durch ein einfach nutzbares Browser-Interface und ein vergleichbar einfaches Roullout von Änderungen auf zugreifbare Server. 
 			On-Premise beinhaltet daher Kostenkomponenten, die eine Eigenverantwortung für Faktoren wie Einrichtung des Servers vor Ort, Serversoftware, Arbeitsaufwand für die Systemadministatoren und andere Infrasrukturkosten beinhaltet, welche bei einem Cloud-Service in der Regel nicht anfallen \cite{Fisher.2018}.
+			Nicht zu vergessen sind auch unerwartete Kosten aufgrund von Hardwareverschleiß oder anderen Begebenheiten, welche die Kosten in die Höhe treiben können, was durch die Eigenverantwortung durch On-Premise auf lange Sicht kaum zu vermeiden ist.
 			\newline
 			Sicherheit und Datenschutz ist ein weiterer Aspekt. Durch die lokale Speicherung der Daten bei On-Premise kann eine gewisse Macht über die eigenen Daten ausgeübt werden. 
-			Bei Cloud-Lösungen wird diese Macht jedoch an den Host der Cloud-Server-Host abgegeben der die Server zur Datenspeicherung besitzt. Dies kann im subjektiven Fall ein Problem darstellen. 
+			Bei Cloud-Lösungen wird diese Macht jedoch an den Host der Cloud-Server abgegeben der die Server zur Datenspeicherung besitzt. Dies kann im subjektiven Fall ein Problem darstellen. 
 			\newline
-			Die Skalierung der Ressourcen hebt Cloud maßgeblich von On-Prem ab. On-Prem bietet mit seinen lokalen Servers eine meist feststehende beziehungsweise schwer zu erweiterbare Ressourcenstruktur. Braucht eine Unternehmung mit einem On-Prem-System eine 
+			Die Skalierung der Ressourcen hebt Cloud maßgeblich von On-Prem ab. On-Prem bietet mit seinen lokalen Server eine meist feststehende beziehungsweise schwer zu erweiterbare Ressourcenstruktur. Braucht eine Unternehmung mit einem On-Prem-System eine 
 			Ressourcenerweiterung, muss meist teure Hardware nachgekauft werden, was eine hohe einmalige Investition bedeutet.
 			Bei Cloud wiederum, muss der Anbieter mehr Ressourcen frei geben, was zwar wieder eine höhere Bindung an den Cloud-Host bedeutet, jedoch auch eine vermeidung von Investitionen und je nach Anbieter lediglich eine Erhöhung der Gebühren zur Folge hat \cite{Murugesan.2016}.
+			\newline
+			\subsection{Faktoren für Knk und den Entwicklungsprozess}
+			%Es muss auch erwähnt werden welche Aspekte dies für unsere Firma sind
+			%%EI-Frage: Nachricht an Carsten: Hey Carsten. Ich habe eine Frage für meine TL: In welchen wesentlichen Aspekten unterscheidet sich der Rollout von Änderungen bei Kunden die On-Prem sind oder solchen die Cloud nutzen?
+
 			
 			\subsection{Aktuelle Trends und Entwicklungen}
-
-	\section{Entwicklung von Entscheidungskriterien}
+			%hierzu vlt auch nochmal bei PMS nachfragen, wie viele Projekte momentan zu Cloud wechseln. Vlt auch in einem Experteninterview oder so idk
+			%Microsoft aktuelle Entwicklung vorheben gegenüber diesem Thema
+			Die folgende Statisitk zeigt die Entwicklung der Cloud-Nutzung in deutschen Unternehmen zwischen 2011 und 2022.
+			Dabei wird der Anteil der Unternehmen dargestellt, die Cloud-Dienste nutzen, sowie der Anteil der Unternehmen, die planen oder diskutieren, Cloud einzuführen. 
+			\begin{figure}[H] %Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022
+				\centering
+				\includegraphics[keepaspectratio,width=\textwidth,height=\textheight]{"Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png"} 
+				\renewcommand{\figurename}{Abb.}
+				\caption{\small Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022}
+			\end{figure}
+			Die Statistik verdeutlicht, dass die Akzeptanz und Nutzung von Cloud in deutschen Unetrnehmen in den letzten Jahres bis 2022 erheblich gestiegen ist. 
+			%EI-Frage: Was ist der zu beobachtende Trend von Kunden gegenüber der Entscheidung der Nutzung von Cloud oder On-Prem
+	
+			\newpage
+			\section{Entwicklung von Entscheidungskriterien}
 	Zunächst werden Kriterien aufgestellt und erläutert:
 	\begin{itemize}
 		\item User-Anzahl
 		\begin{itemize}
-			\item Die Anzahl der User innerhalb eines Unternehmens...
+			\item Die Anzahl der User innerhalb eines Unternehmens speilt eine große Rolle. Umso höher diese User-Anzahl, umso höher auch die einmaligen Anschaffungskosten bei On-Prem und/oder die Zahlungen für Cloud-Dienste.
 		\end{itemize}
+		\item Skalierbarkeit
+			\begin{itemize}
+				\item Inwiefern das eigene System skalierbar sein soll und in welchem Ausmaß.
+			\end{itemize}
+		\item Datenhoheit
+			\begin{itemize}
+				\item Ist der Besitzer der Daten bereit, diese auch in die Hand von Drittanbietern zu legen.
+			\end{itemize}
 	\end{itemize}
+	%EI-Frage: Welche weitere Entscheidungskriterien tauchen bei Kunden häufig auf?
 		\subsection{Gewichtung der Kriterien nach Relevanz}
+		%EI-Frage: Was ist deiner Meinung nach das Relevanteste dieser Kriterien? 
 		\subsection{Unterstützung für Unternehmen und Kunden bei der Auswahl}
 
 	\section{Best Practices und Fallbeispiele}
 		\subsection{Praktische Beispiele aus der Industrie}
+		%da brauche ich auf jedenfall ein Experteninterview. Vlt hat Arnold oder irgendein beratender Mensch zeit dafür?
+		%EI-Frage: Welche Situationen fallen dir ein, in denen ein Kunde sich zwischen den beiden Modellen entscheiden musste und aus welchen Gründen, wurde das schlussendliche Modell ausgesucht? 
 		\subsection{Empfehlungen für die Entscheidungsfindung}
 
 	\section{Fazit}
@@ -231,7 +269,6 @@ bmargin={3cm}]{geometry} % Für das Layout
 	\appendix
 	\clearpage
 	\addcontentsline{toc}{part}{Anhang}
-	%\includepdf[pages=-,
-	%picturecommand*={\label{MEINPDFDOKUMENT}}]{Experteninterview mit Carsten Scheid ausgefüllt.pdf}
+	%\includepdf[pages=-,picturecommand*={\label{MEINPDFDOKUMENT}}]{Experteninterview mit Carsten Scheid ausgefüllt.pdf}
 
 \end{document}
