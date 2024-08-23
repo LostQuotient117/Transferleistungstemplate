@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex Transferleistung"] 1723893617.51275 "Transferleistung.aux" "Transferleistung.bbl" "Transferleistung" 1723896627.86024 0
-  "./Quellenverzeichnis.bib" 1723884309 1865 2dd4cdc5b64b13aca778448ff7610980 ""
-  "./Transferleistung-blx.bib" 1723896626 343 3ed23ee6de99140f139220c4e7012957 ""
+["bibtex Transferleistung"] 1724397850.85234 "Transferleistung.aux" "Transferleistung.bbl" "Transferleistung" 1724398158.08527 0
+  "./Quellenverzeichnis.bib" 1724395002 2002 0e48bb3c38fb8e1e6c7c6eebec1bbc73 ""
+  "./Transferleistung-blx.bib" 1724398156 343 3ed23ee6de99140f139220c4e7012957 ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1679055682 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "Transferleistung.aux" 1723896626 5952 fb27f8b841ce93f77d38e10aa245e4aa "pdflatex"
-  "cover.aux" 1723896625 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
+  "Transferleistung.aux" 1724398156 6875 9add7b32e76acece4fde0f5bc1a3ae3a "pdflatex"
+  "cover.aux" 1724398155 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
   (generated)
   "Transferleistung.bbl"
   "Transferleistung.blg"
   (rewritten before read)
-["pdflatex"] 1723896622.66828 "c:/Users/Jannick.Gottschalk/OneDrive - knk Business Software AG/Dokumente/Nak/Transferleistung/Dritte/Transferleistung Hosting/Transferleistung Hosting/Transferleistung.tex" "Transferleistung.pdf" "Transferleistung" 1723896627.86214 0
+["pdflatex"] 1724398153.77842 "c:/Users/Jannick.Gottschalk/OneDrive - knk Business Software AG/Dokumente/Nak/Transferleistung/Dritte/Transferleistung Hosting/Transferleistung Hosting/Transferleistung.tex" "Transferleistung.pdf" "Transferleistung" 1724398158.08793 0
   "C:/Users/Jannick.Gottschalk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1723891323 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1728.pk" 1714118931 42516 eb7a217606bdc3d3488f9bb7b8df11e7 ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1722963807 24231181 1bff85f5996800aa5a2823f98e80182b ""
@@ -145,17 +145,18 @@
   "C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png" 1723885722 69331 55b0ab3c6e5902db8c7c412fc890dc91 ""
+  "Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf" 1724257633 132144 ac25827ae67b6ed4d7726400e8aea48b ""
+  "Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png" 1723896813 69331 55b0ab3c6e5902db8c7c412fc890dc91 ""
   "Resources/header.png" 1702477766 78298 64744aa1db834704c6207f178aa3ac12 ""
-  "Transferleistung.aux" 1723896626 5952 fb27f8b841ce93f77d38e10aa245e4aa "pdflatex"
-  "Transferleistung.bbl" 1723893617 5046 33f8fc127f10c72cd85f95164cb2452b "bibtex Transferleistung"
-  "Transferleistung.lof" 1723896626 200 9eba9c95b71eb6aa2acff0ae4e6f8e7d "pdflatex"
-  "Transferleistung.out" 1723896626 5198 1c81f74a37210786a4ab232e136f70d2 "pdflatex"
-  "Transferleistung.run.xml" 1723896626 2701 71e0636a999c75ed91eb62dc9b9b0a58 "pdflatex"
-  "Transferleistung.tex" 1723896620 17611 34563548f1d9fcaf7ff60b5c2fac0561 ""
-  "Transferleistung.toc" 1723896626 2298 650f4893becef9d33d0e58979add09bd "pdflatex"
-  "c:/Users/Jannick.Gottschalk/OneDrive - knk Business Software AG/Dokumente/Nak/Transferleistung/Dritte/Transferleistung Hosting/Transferleistung Hosting/Transferleistung.tex" 1723896620 17611 34563548f1d9fcaf7ff60b5c2fac0561 ""
-  "cover.aux" 1723896625 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
+  "Transferleistung.aux" 1724398156 6875 9add7b32e76acece4fde0f5bc1a3ae3a "pdflatex"
+  "Transferleistung.bbl" 1724397851 5608 1a037609a9690078c255a20ee8fa1bea "bibtex Transferleistung"
+  "Transferleistung.lof" 1724398156 200 5c848d4236fa98e056c3c2f36e78ae9f "pdflatex"
+  "Transferleistung.out" 1724398156 5409 65364ec423cfda069581da42aa9f8bda "pdflatex"
+  "Transferleistung.run.xml" 1724398156 2701 71e0636a999c75ed91eb62dc9b9b0a58 "pdflatex"
+  "Transferleistung.tex" 1724398153 21461 054059619b6b670b04aafc83ff851d97 ""
+  "Transferleistung.toc" 1724398156 2432 485998c099d7b95073c569f27c62e22f "pdflatex"
+  "c:/Users/Jannick.Gottschalk/OneDrive - knk Business Software AG/Dokumente/Nak/Transferleistung/Dritte/Transferleistung Hosting/Transferleistung Hosting/Transferleistung.tex" 1724398153 21461 054059619b6b670b04aafc83ff851d97 ""
+  "cover.aux" 1724398155 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
   "cover.tex" 1722965028 887 5c03787a991cd533283990d3f0b31fdc ""
   (generated)
   "Transferleistung-blx.bib"

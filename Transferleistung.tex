@@ -77,6 +77,7 @@ bmargin={3cm}]{geometry} % Für das Layout
 	\begin{acronym}[LängsteAbkürzung] % Für Formatierung längste Abkürzung eintragen
 	\acro{ac:Label}[knk]{knk Business Software AG}
 	\acro{ac:Label}[SaaS]{Software as a Service}
+	\acro{ac:Label}[IaaS]{Infrastructure as a Service}
 	\acro{ac:Label}[CRM]{Customer Relationship Management}
 	\end{acronym}
 	\newpage %Ich werde ganz sicherlich keine Abkürzungen einbauen um meine Transferlistung mit weniger Seiten zu bestücken. DAFUQ
@@ -155,6 +156,7 @@ bmargin={3cm}]{geometry} % Für das Layout
 		\subsection{On-Premise}
 		Bei einem On-Premise-Modell handelt es sich um eine lokal installierte Software, die auf jedem Computer eines Benutzers installiert werden muss, um die gewünschten Funktionalitäten zur Verfügung zu stellen.
 		Meist sind auch die Daten, die eine Unternehmung für diese On-Premise-Sofware gebraucht auf lokalen oder Firmenweiten Datenbanken gespeichert \cite{AlHayek.2020}. 
+		Bei Knk wird On-Premise Angeboten, wenn der Kunde bereit ist, eigene Server für die Software-Lösung bereit zu stellen /cite{Anhang}.
 		\subsection{Cloud}
 		%auf jedenfall noch mehr über die einzelnen Sachen schreiben
 		%https://www.leanix.net/de/wiki/apm/saas-vs-cloud#What-is-cloud-based  Cloud ist überbegriff und SaaS ist eine unterkategorie. Das im SaaS-Kapitel hervorzeigen. 
@@ -175,10 +177,17 @@ bmargin={3cm}]{geometry} % Für das Layout
 				\item Clouds können sich bei Bedarf selbst rekonfigurieren um die Verfügbarkeit im Falle eines Ausfalls ihrer Datenverarbeitungsressourcen zu gewährleisten.
 				\item Sie bieten eine vereinfachte Web-Browser-Oberfläche.
 			\end{itemize}
-		\newpage
+		Diese Grundeigenschaften sind nur auf allgemeine Cloud-Lösungen beschränkt. \newline
+		Bei Knk wird zwischen zwei Arten von Cloud unterschieden: Private-Cloud und SaaS-Cloud.
 		%\end{singlespace}
 		%herausfinden wie genau wir Cloud einsetzen, wer es dann hostet und wie es funktioniert und inwiefern es sich von SaaS abgrenzt.
 		%auf jedenfall erwähnen seit wann Microsoft auch Cloud für BC anbietet
+		\subsubsection{Private Cloud}
+		Bei einer Private Cloud muss das betreibende Unternehmen selbst für den Betrieb, die Verwaltung und die Wartung der Software un dem dazugehörigen Clouddienst sorgen oder an einen Drittanbieter abtreten.
+		Dabei muss die passende Software und die dazugehörigen Lizenzen eingekauft werden sowie Mitarbeiter für die Einrichtung der Software auf dem Cloud-Dienst an- oder abgestellt werden.
+	Es wird meist ein Server bei einem Drittanbieter gemietet um die gewünschte Software darauf unterzubringen \cite{Anhang}. \newline
+		Dies entspricht dem Geschäftsmodell von IaaS (Infrastructure as a Service) bei welchem Hardware wie Server, CPU, Speicher, Netzwerkausrüstung und Rechenzentrumseinrichtung, als Dienstleistung bereitgestellt wird.
+		Anstatt diese Ressourcen also zu kaufen, erhalten die Kunden sie als vollständig ausgelagerte Dienstleistung für die Zeit in der sie sie benötigen \cite{Murugesan.2016}.
 		\subsubsection{SaaS}
 		Software as a Service, ist eine bestimmte Art der Nutzung von Cloud die auch Software-Clouds genannt werden. 
 		Beim SaaS-Modell wird eine Anwendung von einem Cloud-Anbieter gehostet und als Service für die Nutzer bereitgestellt, in erster Linie über das Internet oder ein spezielles Netz.
@@ -202,8 +211,13 @@ bmargin={3cm}]{geometry} % Für das Layout
 			\subsection{Faktoren für Knk und den Entwicklungsprozess}
 			%Es muss auch erwähnt werden welche Aspekte dies für unsere Firma sind
 			%%EI-Frage: Nachricht an Carsten: Hey Carsten. Ich habe eine Frage für meine TL: In welchen wesentlichen Aspekten unterscheidet sich der Rollout von Änderungen bei Kunden die On-Prem sind oder solchen die Cloud nutzen?
-
-			
+			Den Betrieb von On-Premise-Modellen geht meist ein tiefer technischer Zugriff einher. Beispielsweise ist der Zugriff auf die SQL-Datenbank direkt möglich. 
+			Bei einem BC-Cloud-Modell ist dieser Zugriff nur über einen extra angerfertigten Admin-Bereich möglich der eingeschränkte Funktionalitäten im Gegensatz zu SQL bietet.
+			Dieser technische Zugriff bietet ebenfalls eine bessere Möglichkeit, spezifische Anpassungen vorzunehmen wobei dies aber auch größere Verantwortung in Bezug auf Wartung und Verwaltung bedeutet \cite{Anhang}. \newline
+			Private Cloud bietet im Gegensatz eine schnellere Installation von Apps und das Einspielen von AddOns. Dies reduziert sowohl Aufwand, als auch eine mögliche Beschleunigung der Implementierung von neuen Funktionen.
+			Im Thema Performance bieten On-Premise-Server theoretisch eine höhre Rechenleistung. Jedoch sind diese Server in der Praxis oft stark ausgelastet, was die tatsächliche Leistung beeinträchtigen kann.
+			Zudem muss bei der Arbeit mit verschiedenen Modellen, wie OnPrem und OnCloud, darauf geachtet werden, dass die gleichen Versionen von AddOns verwendet werden, um Konsistenz und Kompatibilität sicherzustellen \cite{Anhang}. \newline
+			Schließlich erfordern Cloud-basierte Modelle oft den Einsatz neuer Werkzeuge und Methoden zur Administration. Administratoren müssen sich an diese neuen Werkzeuge gewöhnen, was zusätzlichen Schulungsaufwand mit sich bringen kann \cite{Anhang}.
 			\subsection{Aktuelle Trends und Entwicklungen}
 			%hierzu vlt auch nochmal bei PMS nachfragen, wie viele Projekte momentan zu Cloud wechseln. Vlt auch in einem Experteninterview oder so idk
 			%Microsoft aktuelle Entwicklung vorheben gegenüber diesem Thema
@@ -217,7 +231,8 @@ bmargin={3cm}]{geometry} % Für das Layout
 			\end{figure}
 			Die Statistik verdeutlicht, dass die Akzeptanz und Nutzung von Cloud in deutschen Unetrnehmen in den letzten Jahres bis 2022 erheblich gestiegen ist. 
 			%EI-Frage: Was ist der zu beobachtende Trend von Kunden gegenüber der Entscheidung der Nutzung von Cloud oder On-Prem
-	
+			Beobachtet wird seitens Knk, dass ebenfalls immer mehr Kunden zu einer Private-Cloud oder SaaS-Lösung tendieren. Gerade Unternehmen, dessen Expertise nicht zentral zur IT gehört, bewegen sich in diese Richtung.
+			Bei größeren Unternehmen wird jedoch auch auf On-Premise-Lösungen gesetzt, die einen gewissen höheren Spielraum für individuelle Lösungen bereit stellt und daher für Unternehmen dieser größe mit meist eigenen Anforderungen oder Geschäftsmodelle aufweisen, eine höhere Attraktivität bietet. \cite{Anhang}
 			\newpage
 			\section{Entwicklung von Entscheidungskriterien}
 	Zunächst werden Kriterien aufgestellt und erläutert:
@@ -233,6 +248,14 @@ bmargin={3cm}]{geometry} % Für das Layout
 		\item Datenhoheit
 			\begin{itemize}
 				\item Ist der Besitzer der Daten bereit, diese auch in die Hand von Drittanbietern zu legen.
+			\end{itemize}
+		\item Grad der individuellen Anpassungen
+			\begin{itemize}
+				\item Je mehr Anpassungen erforderlich sind, desto eher wird ein On-Premise- oder Private-Cloud-Modell in Betracht gezogen.
+			\end{itemize}
+		\item Nutzung von Schnittstellen
+			\begin{itemize}
+				\item Wenn viele oder spezielle Schnittstellen zwischen Programmen benötigt werden, bieten On-Premise oder Private-Cloud-Lösungen meist mehr Fleibilität beim Einbinden der benötigten Schnittstellen.
 			\end{itemize}
 	\end{itemize}
 	%EI-Frage: Welche weitere Entscheidungskriterien tauchen bei Kunden häufig auf?
@@ -269,6 +292,6 @@ bmargin={3cm}]{geometry} % Für das Layout
 	\appendix
 	\clearpage
 	\addcontentsline{toc}{part}{Anhang}
-	%\includepdf[pages=-,picturecommand*={\label{MEINPDFDOKUMENT}}]{Experteninterview mit Carsten Scheid ausgefüllt.pdf}
+	\includepdf[pages=-,picturecommand*={\label{MEINPDFDOKUMENT}}]{Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf}
 
 \end{document}

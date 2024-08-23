@@ -10,17 +10,19 @@
 \contentsline {section}{\numberline {3}Hosting-Modelle im Überblick}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}On-Premise}{2}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Cloud}{2}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}SaaS}{3}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1}Private Cloud}{3}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}SaaS}{3}{subsubsection.3.2.2}%
 \contentsline {section}{\numberline {4}Detaillierter Vergleich der Hosting-Modelle}{3}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Faktoren für Knk und den Entwicklungsprozess}{4}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Aktuelle Trends und Entwicklungen}{4}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Entwicklung von Entscheidungskriterien}{5}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Gewichtung der Kriterien nach Relevanz}{5}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Unterstützung für Unternehmen und Kunden bei der Auswahl}{5}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Best Practices und Fallbeispiele}{5}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Praktische Beispiele aus der Industrie}{5}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Empfehlungen für die Entscheidungsfindung}{5}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Fazit}{5}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Zusammenfassung der Ergebnisse}{5}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Ausblick auf zukünftige Entwicklungen}{5}{subsection.7.2}%
+\contentsline {section}{\numberline {5}Entwicklung von Entscheidungskriterien}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Gewichtung der Kriterien nach Relevanz}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Unterstützung für Unternehmen und Kunden bei der Auswahl}{6}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Best Practices und Fallbeispiele}{6}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Praktische Beispiele aus der Industrie}{6}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Empfehlungen für die Entscheidungsfindung}{6}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Fazit}{6}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Zusammenfassung der Ergebnisse}{6}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Ausblick auf zukünftige Entwicklungen}{6}{subsection.7.2}%
 \contentsline {section}{Quellenverzeichnis}{IV}{section*.7}%
+\contentsline {part}{Anhang}{V}{section*.7}%
