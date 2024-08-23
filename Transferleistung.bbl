@@ -132,6 +132,27 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Anhang}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=GJ}{%
+         family={Gottschalk},
+         familyi={G\bibinitperiod},
+         given={Jannick},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pahl},
+         familyi={P\bibinitperiod},
+         given={Ansgar},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJPA1}
+    \strng{fullhash}{GJPA1}
+    \field{labelnamesource}{author}
+    \field{note}{Anhang: Experteninterview mit Ansgar Pahl vom 21.08.2024}
+  \endentry
+
   \entry{Fisher.2018}{article}{}
     \name{author}{1}{}{%
       {{hash=FC}{%
