@@ -21,6 +21,7 @@ bmargin={3cm}]{geometry} % Für das Layout
 \usepackage{subcaption} % Um mehrere Bilder zusammen einzustellen und Links zu Abbildungen zu korrigieren
 \usepackage{float}
 \usepackage{placeins}
+\usepackage{cleveref} %für Querverweise auf Kapitel: see section \cref{Kapitelname}
 
 %Anpassung für itemize:
 \usepackage{enumitem}
@@ -79,6 +80,7 @@ bmargin={3cm}]{geometry} % Für das Layout
 	\acro{ac:Label}[SaaS]{Software as a Service}
 	\acro{ac:Label}[IaaS]{Infrastructure as a Service}
 	\acro{ac:Label}[CRM]{Customer Relationship Management}
+	\acro{ac:Label}[BC]{Business Central}
 	\end{acronym}
 	\newpage %Ich werde ganz sicherlich keine Abkürzungen einbauen um meine Transferlistung mit weniger Seiten zu bestücken. DAFUQ
 	
@@ -218,6 +220,8 @@ bmargin={3cm}]{geometry} % Für das Layout
 			Im Thema Performance bieten On-Premise-Server theoretisch eine höhre Rechenleistung. Jedoch sind diese Server in der Praxis oft stark ausgelastet, was die tatsächliche Leistung beeinträchtigen kann.
 			Zudem muss bei der Arbeit mit verschiedenen Modellen, wie OnPrem und OnCloud, darauf geachtet werden, dass die gleichen Versionen von AddOns verwendet werden, um Konsistenz und Kompatibilität sicherzustellen \cite{Anhang}. \newline
 			Schließlich erfordern Cloud-basierte Modelle oft den Einsatz neuer Werkzeuge und Methoden zur Administration. Administratoren müssen sich an diese neuen Werkzeuge gewöhnen, was zusätzlichen Schulungsaufwand mit sich bringen kann \cite{Anhang}.
+			
+			\newpage
 			\subsection{Aktuelle Trends und Entwicklungen}
 			%hierzu vlt auch nochmal bei PMS nachfragen, wie viele Projekte momentan zu Cloud wechseln. Vlt auch in einem Experteninterview oder so idk
 			%Microsoft aktuelle Entwicklung vorheben gegenüber diesem Thema
@@ -236,38 +240,69 @@ bmargin={3cm}]{geometry} % Für das Layout
 			\newpage
 			\section{Entwicklung von Entscheidungskriterien}
 	Zunächst werden Kriterien aufgestellt und erläutert:
+	\setlist{noitemsep}
 	\begin{itemize}
-		\item User-Anzahl
+		\item User-Anzahl %
 		\begin{itemize}
 			\item Die Anzahl der User innerhalb eines Unternehmens speilt eine große Rolle. Umso höher diese User-Anzahl, umso höher auch die einmaligen Anschaffungskosten bei On-Prem und/oder die Zahlungen für Cloud-Dienste.
 		\end{itemize}
-		\item Skalierbarkeit
+		\item Skalierbarkeit 
 			\begin{itemize}
-				\item Inwiefern das eigene System skalierbar sein soll und in welchem Ausmaß.
+				\item In welchem Maße das eigene System skalierbar sein muss und wie viel Datenvolumen es bewältigen können soll.
 			\end{itemize}
-		\item Datenhoheit
+		\item Datenhoheit %
 			\begin{itemize}
 				\item Ist der Besitzer der Daten bereit, diese auch in die Hand von Drittanbietern zu legen.
 			\end{itemize}
-		\item Grad der individuellen Anpassungen
+		\item Grad der individuellen Anpassungen %
 			\begin{itemize}
 				\item Je mehr Anpassungen erforderlich sind, desto eher wird ein On-Premise- oder Private-Cloud-Modell in Betracht gezogen.
 			\end{itemize}
-		\item Nutzung von Schnittstellen
+		\item Nutzung von Schnittstellen %
 			\begin{itemize}
 				\item Wenn viele oder spezielle Schnittstellen zwischen Programmen benötigt werden, bieten On-Premise oder Private-Cloud-Lösungen meist mehr Fleibilität beim Einbinden der benötigten Schnittstellen.
 			\end{itemize}
+		\item Bereits vorhandene Lizenzen %
+			\begin{itemize}
+				\item Welche Lizenzen schon bereits zur im Besitz des Kunden stehen, kann auch entscheiden welches Modell besser geeignet ist. 
+			\end{itemize}
+		\item Grad der Automatisierung %
+			\begin{itemize}
+				\item Hochgradig automatisierte Prozesse erfordern meist eine stabile und leistungsfähige Umgebung. 
+			\end{itemize}
 	\end{itemize}
+	%!!!!!Vlt davon absehen hier schon eine Zuordnung zu den Modellen zu schreiben.
 	%EI-Frage: Welche weitere Entscheidungskriterien tauchen bei Kunden häufig auf?
 		\subsection{Gewichtung der Kriterien nach Relevanz}
+		Aus den Vorangegangenen Informationen und dem Experteninterview mit Ansgar Pahl \cite{Anhang} geht folgende Soriterung der Kriterien hervor:
+		\setlist{noitemsep}
+		\begin{itemize}
+			\item[1.] Grad der individuellen Anpassungen
+			\item[2.] Gleichzeitig aktive User
+			\item[3.] Skalierbarkeit (inkl. Datenmenge)
+			\item[4.] Nutzung von Schnittstellen
+			\item[5.] Bereits vorhandene Lizenzen
+			\item[6.] Grad der Automatisierung
+			\item[7.] Datenhoheit 
+		\end{itemize}
 		%EI-Frage: Was ist deiner Meinung nach das Relevanteste dieser Kriterien? 
 		\subsection{Unterstützung für Unternehmen und Kunden bei der Auswahl}
+		%auch erklären, dass Datenhoheit bei Microsoft keine Rolle spielt weil die Rechenzentrum in DE haben (braucht aber noch Quelle)
 
-	\section{Best Practices und Fallbeispiele}
-		\subsection{Praktische Beispiele aus der Industrie}
+	\section{Praktische Beispiele aus der Industrie}
 		%da brauche ich auf jedenfall ein Experteninterview. Vlt hat Arnold oder irgendein beratender Mensch zeit dafür?
 		%EI-Frage: Welche Situationen fallen dir ein, in denen ein Kunde sich zwischen den beiden Modellen entscheiden musste und aus welchen Gründen, wurde das schlussendliche Modell ausgesucht? 
-		\subsection{Empfehlungen für die Entscheidungsfindung}
+		Aus dem Experteninterview mit Ansgar Pahl \cite{Anhang}, gehen drei Fallbeispiele hervor die in den folgenden Unterkapiteln \ref{MVB}, \ref{Avoxa} und \ref{Sanoma} erläutert werden.
+			\subsection{MVB}\label{MVB}
+			Der ,,Marketing- und Verlagsservice des Buchhandels'' (MVB) ist ein Kunde von Knk mit Sitz in Frankfurt. Sie bieten Verlagsprodukte und Dienstleistungen an. Sie gehören zur Börsenvereinsgruppe \cite{MVB-Website.2024}.\newline 
+			MVB begann zunächst damit bei Microsoft die Public-Business-Central-Cloud zu mieten und darüber das Produkt von Knk zu nutzen. Später jedoch entschied sich MVB dazu auf eine private Cloud in Azure umzusteigen, um den gewollten und erforderlichen Leistungszuwachs zu erzielen.
+			\subsection{Avoxa}\label{Avoxa}
+			Die ,,Avoxa-Mediengruppe deutscher Apotheker'' ist ein deutsches Medienunternehmen welches Zahlreiche Verlagsprodukte und Dienstleistungen im pharmazeutischen Bereich anbietet \cite{Avoxa-Website.2024}. \newline 
+			Avoxa plante, IT-Personal und Hardware-Ressourcen im eigenen Unternehmen abzubauen. Der Verlag entschied sich aufgrunddessen dazu, in Zukunft eine Private-Cloud-Umgebung zu nutzen um die internen IT-Aufwände zu minimieren.
+			\subsection{Sanoma}\label{Sanoma}
+			Sanoma ist ein finnischer Medienkonzern. Sanomas bietet Angebote wie Zeitschriften, Zeitungen, Fernseh- und  Radiosender sowie Internetangebote im Bereich Bildung an \cite{Sanoma-Website.2024}. \newline
+			Für Sanoma kam persönlich ausschließlich die BC-SaaS-Cloud in Frage. Um diese jedoch optimal zu nutzen, spielte die Integration einer Middleware, zur Kommunikation und Datenverwaltung zwischen verschiedenen Anwendung welche bei Sanoma genutzt werden, eine zentrale Rolle.
+		%\subsection{Empfehlungen für die Entscheidungsfindung}
 
 	\section{Fazit}
 		\subsection{Zusammenfassung der Ergebnisse}

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.6)  23 AUG 2024 09:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.6)  26 AUG 2024 19:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Jannick.Gottschalk/OneDrive - knk Business Software AG/Dokumente/Nak/Transferleistung/Dritte/Transferleistung Hosting/Transferleistung Hosting/Transferleistung.tex"
-(c:/Users/Jannick.Gottschalk/OneDrive - knk Business Software AG/Dokumente/Nak/Transferleistung/Dritte/Transferleistung Hosting/Transferleistung Hosting/Transferleistung.tex
+**"c:/Git Repos/Transferleistungen/Transferleistung-3/Transferleistung.tex"
+(c:/Git Repos/Transferleistungen/Transferleistung-3/Transferleistung.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -378,6 +378,19 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box57
 ) (C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
+) (C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
 ) (C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip66
@@ -642,30 +655,30 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 53.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 54.
  (C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (Transferleistung.aux (cover.aux))
 \openout1 = `Transferleistung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
  (C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count433
@@ -729,7 +742,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 54.
  (Transferleistung.out) (Transferleistung.out)
 \@outlinefile=\write4
 \openout4 = `Transferleistung.out'.
@@ -762,8 +775,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Transferleistung.bbl' found.
  (Transferleistung.bbl)
-Package biblatex Info: Reference section=0 on input line 53.
-Package biblatex Info: Reference segment=0 on input line 53.
+Package biblatex Info: Reference section=0 on input line 54.
+Package biblatex Info: Reference segment=0 on input line 54.
 \openout2 = `cover.aux'.
 
  (cover.tex
@@ -794,10 +807,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 )
-<Resources/header.png, id=110, 661.47125pt x 75.78313pt>
+<Resources/header.png, id=114, 661.47125pt x 75.78313pt>
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 55.
+Package pdftex.def Info: Resources/header.png  used on input line 56.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
  [1
 
@@ -808,7 +821,7 @@ Package pdftex.def Info: Resources/header.png  used on input line 55.
 
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 63.
+Package pdftex.def Info: Resources/header.png  used on input line 64.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
  [1
 
@@ -819,18 +832,12 @@ Package pdftex.def Info: Resources/header.png  used on input line 63.
 
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 70.
+Package pdftex.def Info: Resources/header.png  used on input line 71.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
  [2
 
 ]
 
-LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 78.
-
-
-LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 78.
-
-
 LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 79.
 
 
@@ -847,10 +854,22 @@ LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input li
 
 
 LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 81.
+
+
+LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 82.
+
+
+LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 82.
+
+
+LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 83.
+
+
+LaTeX Warning: Hyper reference `acro:ac:Label' on page III undefined on input line 83.
 
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 83.
+Package pdftex.def Info: Resources/header.png  used on input line 85.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
 [3
 
@@ -858,97 +877,111 @@ Package pdftex.def Info: Resources/header.png  used on input line 83.
 pdfTeX warning (ext4): destination with the same identifier (name{ac:Label}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.83 	\newpage
+l.85 	\newpage
                %Ich werde ganz sicherlich keine Abkürzungen einbauen um mei...
 pdfTeX warning (ext4): destination with the same identifier (name{ac:Label}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.83 	\newpage
+l.85 	\newpage
                %Ich werde ganz sicherlich keine Abkürzungen einbauen um mei...
 pdfTeX warning (ext4): destination with the same identifier (name{ac:Label}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.83 	\newpage
+l.85 	\newpage
+               %Ich werde ganz sicherlich keine Abkürzungen einbauen um mei...
+pdfTeX warning (ext4): destination with the same identifier (name{ac:Label}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.85 	\newpage
                %Ich werde ganz sicherlich keine Abkürzungen einbauen um mei...]
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 131--135
 
  []
 
 
-Overfull \hbox (6.6906pt too wide) in paragraph at lines 134--147
+Overfull \hbox (6.6906pt too wide) in paragraph at lines 136--149
 \OT1/ptm/m/n/12 knkMedia Saas soll schnel-le ak-tua-li-sie-rung in-ner-halb von Stun-den erm[]oglichen und []uber die Microsoft-
  []
 
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 160.
+Package pdftex.def Info: Resources/header.png  used on input line 162.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
 [1]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 173.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 175.
  (C:\Users\Jannick.Gottschalk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 185.
+Package pdftex.def Info: Resources/header.png  used on input line 187.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 199--211
+Underfull \hbox (badness 10000) in paragraph at lines 201--213
 
  []
 
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 211.
+Package pdftex.def Info: Resources/header.png  used on input line 213.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
 [3]
-<Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png, id=201, 1003.75pt x 745.78625pt>
+File: Resources/header.png Graphic file (type png)
+<use Resources/header.png>
+Package pdftex.def Info: Resources/header.png  used on input line 224.
+(pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
+ [4]
+<Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png, id=210, 1003.75pt x 745.78625pt>
 File: Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png Graphic file (type png)
 <use Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png>
-Package pdftex.def Info: Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png  used on input line 228.
+Package pdftex.def Info: Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png  used on input line 232.
 (pdftex.def)             Requested size: 483.70903pt x 359.39581pt.
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 232.
-(pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
- [4]
-File: Resources/header.png Graphic file (type png)
-<use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 236.
+Package pdftex.def Info: Resources/header.png  used on input line 240.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
  [5 <./Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png>]
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 283.
+Package pdftex.def Info: Resources/header.png  used on input line 296.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
  [6]
-Overfull \hbox (12.47514pt too wide) in paragraph at lines 290--290
+Overfull \hbox (3.45079pt too wide) in paragraph at lines 300--302
+\OT1/ptm/m/n/12 Die ,,Avoxa-Mediengruppe deut-scher Apo-the-ker'' ist ein deut-sches Me-dien-un-ter-neh-men wel-ches Zahl-
+ []
+
+File: Resources/header.png Graphic file (type png)
+<use Resources/header.png>
+Package pdftex.def Info: Resources/header.png  used on input line 318.
+(pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
+[7]
+Overfull \hbox (12.47514pt too wide) in paragraph at lines 325--325
 []\OT1/ptm/m/n/12 Knk-Business-Software-AG. []$\OT1/cmtt/m/n/12 https : / / knk . de / produkt -[] neuheit -[] knk -[] kuendigt -[] knkmedia -[]
  []
 
 
-Overfull \hbox (12.0657pt too wide) in paragraph at lines 290--290
+Overfull \hbox (12.0657pt too wide) in paragraph at lines 325--325
 []\OT1/ptm/m/n/12 Jannick Gott-schalk und Ans-gar Pahl. An-hang: Ex-per-ten-in-ter-view mit Ans-gar Pahl vom 21.08.2024. 
  []
 
 File: Resources/header.png Graphic file (type png)
 <use Resources/header.png>
-Package pdftex.def Info: Resources/header.png  used on input line 291.
+Package pdftex.def Info: Resources/header.png  used on input line 326.
 (pdftex.def)             Requested size: 483.69687pt x 55.41487pt.
 [4]
 
 pdfTeX warning: pdflatex (file ./Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, id=229, 597.55246pt x 845.07718pt>
+<Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, id=253, 597.55246pt x 845.07718pt>
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf  used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf  used on input line 330.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
 pdfTeX warning: pdflatex (file ./Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf  used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf  used on input line 330.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -956,26 +989,26 @@ pdfTeX warning: pdflatex (file ./Content/Documents/PDF/21.08.2024 Experteninterv
 
 
 pdfTeX warning: pdflatex (file ./Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, id=232, page=1, 597.55246pt x 845.07718pt>
+<Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, id=256, page=1, 597.55246pt x 845.07718pt>
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 1>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page1 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page1 used on input line 330.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 1>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page1 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page1 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 1>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page1 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page1 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 1>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page1 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page1 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 1>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page1 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page1 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [5
 
@@ -983,54 +1016,54 @@ Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit 
  <./Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf>]
 
 pdfTeX warning: pdflatex (file ./Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, id=263, page=2, 597.55246pt x 845.07718pt>
+<Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, id=288, page=2, 597.55246pt x 845.07718pt>
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 2>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page2 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page2 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 2>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page2 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page2 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 2>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page2 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page2 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [6
 
  <./Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf>]
 
 pdfTeX warning: pdflatex (file ./Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, id=270, page=3, 597.55246pt x 845.07718pt>
+<Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, id=294, page=3, 597.55246pt x 845.07718pt>
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 3>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page3 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page3 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 3>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page3 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page3 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 3>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page3 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page3 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [7
 
  <./Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf>]
 
 pdfTeX warning: pdflatex (file ./Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, id=276, page=4, 597.55246pt x 845.07718pt>
+<Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, id=300, page=4, 597.55246pt x 845.07718pt>
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 4>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page4 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page4 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 4>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page4 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page4 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf Graphic file (type pdf)
 <use Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf, page 4>
-Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page4 used on input line 295.
+Package pdftex.def Info: Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf , page4 used on input line 330.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [8
 
@@ -1048,7 +1081,7 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Transferleistung.out' has not changed.
-(rerunfilecheck)             Checksum: 65364EC423CFDA069581DA42AA9F8BDA;5409.
+(rerunfilecheck)             Checksum: AFD405CCD8F9A1730B278984DBC57526;5151.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                Transferleistung
@@ -1059,17 +1092,17 @@ Package logreq Info: Writing requests to 'Transferleistung.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22504 strings out of 474486
- 408108 string characters out of 5737620
+ 24229 strings out of 474486
+ 446004 string characters out of 5737620
  1937542 words of memory out of 5000000
- 44417 multiletter control sequences out of 15000+600000
+ 46133 multiletter control sequences out of 15000+600000
  579151 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 75i,17n,81p,2049b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,81p,1948b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Jannick.Gottschalk\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Transferleistung.pdf (15 pages, 362921 bytes).
+Output written on Transferleistung.pdf (16 pages, 369466 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 262 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
