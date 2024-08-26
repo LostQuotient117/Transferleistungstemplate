@@ -184,5 +184,57 @@
   Management}
     \field{year}{2018}
   \endentry
+
+  \entry{MVB-Website.2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=uVdBGM}{%
+         prefix={und Verlagsservice\bibnamedelima des},
+         prefixi={u\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
+  d\bibinitperiod},
+         family={Buchhandels\bibnamedelima GmbH},
+         familyi={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Marketing},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BGMuVd1}
+    \strng{fullhash}{BGMuVd1}
+    \field{labelnamesource}{author}
+    \field{howpublished}{\url{https://mvb-online.de/ueber-uns/unternehmen}}
+    \field{note}{Abgerufen am 26.08.2024}
+  \endentry
+
+  \entry{Avoxa-Website.2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GAMDA}{%
+         family={GmbH},
+         familyi={G\bibinitperiod},
+         given={Avoxa Mediengruppe Deutscher\bibnamedelima Apotheker},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GAMDA1}
+    \strng{fullhash}{GAMDA1}
+    \field{labelnamesource}{author}
+    \field{howpublished}{\url{https://avoxa.de/unternehmen/}}
+    \field{note}{Abgerufen am 26.08.2024}
+  \endentry
+
+  \entry{Sanoma-Website.2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ASO}{%
+         family={AG},
+         familyi={A\bibinitperiod},
+         given={Sanoma\bibnamedelima Oyj},
+         giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ASO1}
+    \strng{fullhash}{ASO1}
+    \field{labelnamesource}{author}
+    \field{howpublished}{\url{https://www.sanoma.com/en/who-we-are/}}
+    \field{note}{Abgerufen am 26.08.2024}
+  \endentry
 \enddatalist
 \endinput
