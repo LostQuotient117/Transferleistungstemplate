@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex Transferleistung"] 1724694498.96781 "Transferleistung.aux" "Transferleistung.bbl" "Transferleistung" 1724694503.5476 0
-  "./Quellenverzeichnis.bib" 1724690979 2539 c58a5bfd2dbc5cc45bafcbd2ff3ca708 ""
-  "./Transferleistung-blx.bib" 1724694501 343 3ed23ee6de99140f139220c4e7012957 ""
+["bibtex Transferleistung"] 1724694662.88787 "Transferleistung.aux" "Transferleistung.bbl" "Transferleistung" 1724694747.52792 0
+  "./Quellenverzeichnis.bib" 1724694652 2539 c58a5bfd2dbc5cc45bafcbd2ff3ca708 ""
+  "./Transferleistung-blx.bib" 1724694746 343 3ed23ee6de99140f139220c4e7012957 ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1679055682 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "Transferleistung.aux" 1724694501 8234 96c940136f89e789804eb0dcfb7859d9 "pdflatex"
-  "cover.aux" 1724694501 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
+  "Transferleistung.aux" 1724694746 8234 96c940136f89e789804eb0dcfb7859d9 "pdflatex"
+  "cover.aux" 1724694745 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
   (generated)
   "Transferleistung.bbl"
   "Transferleistung.blg"
   (rewritten before read)
-["pdflatex"] 1724694499.3457 "c:/Git Repos/Transferleistungen/Transferleistung-3/Transferleistung.tex" "Transferleistung.pdf" "Transferleistung" 1724694503.5492 0
+["pdflatex"] 1724694743.64583 "c:/Git Repos/Transferleistungen/Transferleistung-3/Transferleistung.tex" "Transferleistung.pdf" "Transferleistung" 1724694747.53023 0
   "C:/Users/Jannick.Gottschalk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1724692730 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1728.pk" 1714118931 42516 eb7a217606bdc3d3488f9bb7b8df11e7 ""
   "C:/Users/Jannick.Gottschalk/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1722963807 24231181 1bff85f5996800aa5a2823f98e80182b ""
@@ -149,16 +149,16 @@
   "Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf" 1724398420 132144 ac25827ae67b6ed4d7726400e8aea48b ""
   "Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png" 1724398420 69331 55b0ab3c6e5902db8c7c412fc890dc91 ""
   "Resources/header.png" 1724398420 78298 64744aa1db834704c6207f178aa3ac12 ""
-  "Transferleistung.aux" 1724694501 8234 96c940136f89e789804eb0dcfb7859d9 "pdflatex"
-  "Transferleistung.bbl" 1724694499 7361 368b4860d7670284c7b7198cd7eb0b17 "bibtex Transferleistung"
-  "Transferleistung.lof" 1724694501 200 5c848d4236fa98e056c3c2f36e78ae9f "pdflatex"
-  "Transferleistung.out" 1724694501 5151 afd405ccd8f9a1730b278984dbc57526 "pdflatex"
-  "Transferleistung.run.xml" 1724694501 2701 71e0636a999c75ed91eb62dc9b9b0a58 "pdflatex"
-  "Transferleistung.tex" 1724694494 24458 aec27609daa5a927d28aa0c16ad74b3d ""
-  "Transferleistung.toc" 1724694501 2438 ec41741fe6104f82e1a796f6cf73ac88 "pdflatex"
-  "c:/Git Repos/Transferleistungen/Transferleistung-3/Transferleistung.tex" 1724694494 24458 aec27609daa5a927d28aa0c16ad74b3d ""
-  "cover.aux" 1724694501 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
-  "cover.tex" 1724398420 912 5c03787a991cd533283990d3f0b31fdc ""
+  "Transferleistung.aux" 1724694746 8234 96c940136f89e789804eb0dcfb7859d9 "pdflatex"
+  "Transferleistung.bbl" 1724694663 7361 368b4860d7670284c7b7198cd7eb0b17 "bibtex Transferleistung"
+  "Transferleistung.lof" 1724694746 200 5c848d4236fa98e056c3c2f36e78ae9f "pdflatex"
+  "Transferleistung.out" 1724694746 5151 afd405ccd8f9a1730b278984dbc57526 "pdflatex"
+  "Transferleistung.run.xml" 1724694746 2701 71e0636a999c75ed91eb62dc9b9b0a58 "pdflatex"
+  "Transferleistung.tex" 1724694658 24458 aec27609daa5a927d28aa0c16ad74b3d ""
+  "Transferleistung.toc" 1724694746 2438 ec41741fe6104f82e1a796f6cf73ac88 "pdflatex"
+  "c:/Git Repos/Transferleistungen/Transferleistung-3/Transferleistung.tex" 1724694658 24458 aec27609daa5a927d28aa0c16ad74b3d ""
+  "cover.aux" 1724694745 4117 2d51d22d67c0c242d83f5c67e05ce7e7 "pdflatex"
+  "cover.tex" 1724694742 912 afca7bc99f82982ef029292cc5072a5c ""
   (generated)
   "Transferleistung-blx.bib"
   "Transferleistung.aux"
