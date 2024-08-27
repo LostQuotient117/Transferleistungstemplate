@@ -136,8 +136,8 @@ bmargin={3cm}]{geometry} % Für das Layout
 	Knk bietet schon lange Großprojekte für Medien- und Verlagshäuser in Form von KnkVerlag an. 
 	Um nun auch kleinere Verlagshäuser anzusprechen, wurde knkMedia SaaS angekündigt und zur Verfügung gestellt \cite{knk-kuendigtSaaS-an.2023}.
 	\newline
-	knkMedia Saas soll schnelle aktualisierung innerhalb von Stunden ermöglichen und über die Microsoft-Cloud verfügbar sein.
-	Die Vermarktung von knkMedia Saas als fertiges Produktpacket soll nun auch kleineren Verlagen mit 10 bis 20 Benutzern das ERP-System von Microsoft und die dazu passenden Knk-Erweiterungen attraktiver gestalten \cite{knk-kuendigtSaaS-an.2023}.
+	knkMedia Saas soll schnelle Aktualisierung innerhalb von Stunden ermöglichen und über die Microsoft-Cloud verfügbar sein.
+	Die Vermarktung von knkMedia SaaS als fertiges Produktpacket soll nun auch kleineren Verlagen mit 10 bis 20 Benutzern das ERP-System von Microsoft und die dazu passenden Knk-Erweiterungen attraktiver gestalten \cite{knk-kuendigtSaaS-an.2023}.
 	\newline
 	Die Motivation dieser Arbeit besteht darin, einen genaueren Überblick auf die verschiedenen Hostingmodelle zu bekommen und einen möglichst genauen Leitfaden zur Entscheidungsfindung aufzubauen.
 	Der daraus entstehende Leeitfaden soll ermöglichen besser über Vor- und Nachteile informiert zu sein und bessere Entscheidungen aufgrund dieser zu treffen. 
@@ -148,24 +148,24 @@ bmargin={3cm}]{geometry} % Für das Layout
 	%\subsection{Forschungsfrage} bietet aber vlt nicht genug
 
 
-	\section{Anforderungsanalyse}
-	\subsection{Erfassung der spezifischen Anforderungen von Knk und Kunden}
-	%EI-Frage: Mir fällt keine ein. Thema streichen
-	%vlt auch subsubsection
-	\subsection{Technische und gesellschaftliche Anforderungen}
+	% \section{Anforderungsanalyse}
+	% \subsection{Erfassung der spezifischen Anforderungen von Knk und Kunden}
+	% %EI-Frage: Mir fällt keine ein. Thema streichen
+	% %vlt auch subsubsection
+	% \subsection{Technische und gesellschaftliche Anforderungen}
 
 	\section{Hosting-Modelle im Überblick}
 		\subsection{On-Premise}
 		Bei einem On-Premise-Modell handelt es sich um eine lokal installierte Software, die auf jedem Computer eines Benutzers installiert werden muss, um die gewünschten Funktionalitäten zur Verfügung zu stellen.
 		Meist sind auch die Daten, die eine Unternehmung für diese On-Premise-Sofware gebraucht auf lokalen oder Firmenweiten Datenbanken gespeichert \cite{AlHayek.2020}. 
-		Bei Knk wird On-Premise Angeboten, wenn der Kunde bereit ist, eigene Server für die Software-Lösung bereit zu stellen /cite{Anhang}.
+		Bei Knk wird On-Premise Angeboten, wenn der Kunde bereit ist, eigene Server für die Software-Lösung bereit zu stellen \cite{Anhang}.
 		\subsection{Cloud}
 		%auf jedenfall noch mehr über die einzelnen Sachen schreiben
 		%https://www.leanix.net/de/wiki/apm/saas-vs-cloud#What-is-cloud-based  Cloud ist überbegriff und SaaS ist eine unterkategorie. Das im SaaS-Kapitel hervorzeigen. 
-		Cloud erntet immer mehr aufmerksamkeit und wird weitesgehend adaptiert. Als paradigmenwechsel in der IT betrachtet, wird es schon für vielfältige Anwedungsbereiche sowohl im geschäftlichen aber auch im privaten und behördlichen Bereich angewendet. \cite{Murugesan.2016}.
+		Cloud erntet immer mehr Aufmerksamkeit und wird weitesgehend adaptiert. Als Paradigmenwechsel in der IT betrachtet, wird es schon für vielfältige Anwedungsbereiche sowohl im geschäftlichen aber auch im privaten und behördlichen Bereich angewendet. \cite{Murugesan.2016}.
 		\newline
-		Die meisten privaten Nutzer, gebrauchen Cloud bereits um Fotos zu speichern oder für den eigenen Online-Kalendar sowie Online-Datenspeicherungen (z.B.: OneDrive)
-		Klein- und Mittelgroße Unternehmen gebrauchen Cloud-Lösungen zum Beispiel für Cloud-basierte Anwedungen, Gehaltsabrechnungen, Kundenbeziehungsmanagement (CRM), Business Intelligence oder Datensammlung und Analyse.
+		Die meisten privaten Nutzer, gebrauchen Cloud bereits um Fotos zu speichern oder für den eigenen Online-Kalendar sowie Online-Datenspeicherungen (z.B.: OneDrive). \newline 
+		Klein- und Mittelgroße Unternehmen gebrauchen Cloud-Lösungen zum Beispiel für Cloud-basierte Anwedungen, Gehaltsabrechnungen, Kundenbeziehungsmanagement (CRM), Business Intelligence oder Datensammlung und Analyse. \newline
 		Großunternehmen nutzen Cloud-Dienste zum Beispiel für Geschäftsfunktionen wie Supply-Chain-Management, Datenspeicherung, Big-Data-Analysen, Geschäftsprozessmanagement, CRM oder Anwendungsentwicklung \cite{Murugesan.2016}.
 		%nochmal sagen: Jo meist einfach Browser an und fertig der Lachs
 		%\begin{singlespace} 
@@ -179,22 +179,19 @@ bmargin={3cm}]{geometry} % Für das Layout
 				\item Clouds können sich bei Bedarf selbst rekonfigurieren um die Verfügbarkeit im Falle eines Ausfalls ihrer Datenverarbeitungsressourcen zu gewährleisten.
 				\item Sie bieten eine vereinfachte Web-Browser-Oberfläche.
 			\end{itemize}
-		Diese Grundeigenschaften sind nur auf allgemeine Cloud-Lösungen beschränkt. \newline
-		Bei Knk wird zwischen zwei Arten von Cloud unterschieden: Private-Cloud und SaaS-Cloud.
+		Diese Grundeigenschaften sind nur auf allgemeine Cloud-Lösungen beschränkt und könnnen je Anbieter und Cloud-Art variieren.
 		%\end{singlespace}
 		%herausfinden wie genau wir Cloud einsetzen, wer es dann hostet und wie es funktioniert und inwiefern es sich von SaaS abgrenzt.
 		%auf jedenfall erwähnen seit wann Microsoft auch Cloud für BC anbietet
+		\newpage
 		\subsubsection{Private Cloud}
 		Bei einer Private Cloud muss das betreibende Unternehmen selbst für den Betrieb, die Verwaltung und die Wartung der Software un dem dazugehörigen Clouddienst sorgen oder an einen Drittanbieter abtreten.
 		Dabei muss die passende Software und die dazugehörigen Lizenzen eingekauft werden sowie Mitarbeiter für die Einrichtung der Software auf dem Cloud-Dienst an- oder abgestellt werden.
-	Es wird meist ein Server bei einem Drittanbieter gemietet um die gewünschte Software darauf unterzubringen \cite{Anhang}. \newline
+		Es wird meist ein Server bei einem Drittanbieter gemietet um die gewünschte Software darauf unterzubringen \cite{Anhang}. \newline
 		Dies entspricht dem Geschäftsmodell von IaaS (Infrastructure as a Service) bei welchem Hardware wie Server, CPU, Speicher, Netzwerkausrüstung und Rechenzentrumseinrichtung, als Dienstleistung bereitgestellt wird.
 		Anstatt diese Ressourcen also zu kaufen, erhalten die Kunden sie als vollständig ausgelagerte Dienstleistung für die Zeit in der sie sie benötigen \cite{Murugesan.2016}.
 		\subsubsection{SaaS}
-		Software as a Service, ist eine bestimmte Art der Nutzung von Cloud die auch Software-Clouds genannt werden. 
-		Beim SaaS-Modell wird eine Anwendung von einem Cloud-Anbieter gehostet und als Service für die Nutzer bereitgestellt, in erster Linie über das Internet oder ein spezielles Netz.
-		Es entfällt dadurch die Notwendigkeit, die Anwedung lokal auf dem Computer des Nutzers zu installieren und auszuführen und die Nutzer müssen sich nicht mehr um die Wartund und Aktualisierung der Hardware und Software kümmern.
-		Den Nutzern wird dabei die genutzten Dienstleistungen in Rechnung gestellt. Somit werden die Kosten für die Nutzung eines Dienstes zu einer kontinuierlichen Ausgabe und nicht zu einer großen Anfangsinvestition zum Zeitpunkt des Kaufs \cite{Murugesan.2016}.
+		Software as a Service (SaaS) bezeichnet eine Form der Nutzung von Cloud-Diensten, bei der eine Anwendung von einem Cloud-Anbieter gehostet und über das Internet oder ein spezielles Netz bereitgestellt wird. Beim SaaS-Modell entfällt die Notwendigkeit, die Software lokal zu installieren und zu verwalten, da diese Aufgaben vom Anbieter übernommen werden. Die Nutzer zahlen für die Nutzung der Dienstleistung, was die Kosten in eine kontinuierliche Ausgabe umwandelt, im Gegensatz zu einer großen Anfangsinvestition beim Kauf. SaaS ist dabei als reine Softwarelösung zu verstehen und wird oft in Verbindung mit Infrastructure as a Service (IaaS) verwendet, wie in der Business-Central-Cloud, wodurch keine zusätzlichen Hardwarekosten anfallen. \cite{Murugesan.2016}\cite{Anhang}.
 		%sind unterkategorie von Cloud-Lösungen. 
 		
 	\section{Detaillierter Vergleich der Hosting-Modelle}
@@ -206,7 +203,7 @@ bmargin={3cm}]{geometry} % Für das Layout
 			Sicherheit und Datenschutz ist ein weiterer Aspekt. Durch die lokale Speicherung der Daten bei On-Premise kann eine gewisse Macht über die eigenen Daten ausgeübt werden. 
 			Bei Cloud-Lösungen wird diese Macht jedoch an den Host der Cloud-Server abgegeben der die Server zur Datenspeicherung besitzt. Dies kann im subjektiven Fall ein Problem darstellen. 
 			\newline
-			Die Skalierung der Ressourcen hebt Cloud maßgeblich von On-Prem ab. On-Prem bietet mit seinen lokalen Server eine meist feststehende beziehungsweise schwer zu erweiterbare Ressourcenstruktur. Braucht eine Unternehmung mit einem On-Prem-System eine 
+			Die Skalierung der Ressourcen hebt Cloud maßgeblich von On-Premise ab. On-Premise bietet mit seinen lokalen Server eine meist feststehende beziehungsweise schwer zu erweiterbare Ressourcenstruktur. Braucht eine Unternehmung mit einem On-Premise-System eine 
 			Ressourcenerweiterung, muss meist teure Hardware nachgekauft werden, was eine hohe einmalige Investition bedeutet.
 			Bei Cloud wiederum, muss der Anbieter mehr Ressourcen frei geben, was zwar wieder eine höhere Bindung an den Cloud-Host bedeutet, jedoch auch eine vermeidung von Investitionen und je nach Anbieter lediglich eine Erhöhung der Gebühren zur Folge hat \cite{Murugesan.2016}.
 			\newline
@@ -244,7 +241,7 @@ bmargin={3cm}]{geometry} % Für das Layout
 	\begin{itemize}
 		\item User-Anzahl %
 		\begin{itemize}
-			\item Die Anzahl der User innerhalb eines Unternehmens speilt eine große Rolle. Umso höher diese User-Anzahl, umso höher auch die einmaligen Anschaffungskosten bei On-Prem und/oder die Zahlungen für Cloud-Dienste.
+			\item Die Anzahl der User innerhalb eines Unternehmens speilt eine große Rolle.
 		\end{itemize}
 		\item Skalierbarkeit 
 			\begin{itemize}
@@ -260,7 +257,7 @@ bmargin={3cm}]{geometry} % Für das Layout
 			\end{itemize}
 		\item Nutzung von Schnittstellen %
 			\begin{itemize}
-				\item Wenn viele oder spezielle Schnittstellen zwischen Programmen benötigt werden, bieten On-Premise oder Private-Cloud-Lösungen meist mehr Fleibilität beim Einbinden der benötigten Schnittstellen.
+				\item Schnittstellen werden meist benötigt, um den Datenaustausch zwischen einzelnen Anwendungen zu ermöglichen. Die Anzahl und Komplexität kann je nach Unternehmung stark abweichen.
 			\end{itemize}
 		\item Bereits vorhandene Lizenzen %
 			\begin{itemize}
@@ -285,10 +282,44 @@ bmargin={3cm}]{geometry} % Für das Layout
 			\item[6.] Grad der Automatisierung
 			\item[7.] Datenhoheit 
 		\end{itemize}
+		Diese Sortierung mag jedoch subjektiv Abweichen und sollte daher kritisch Betrachtet werden und je nach Geschäftssituation angepasst werden.
+		\newpage
 		%EI-Frage: Was ist deiner Meinung nach das Relevanteste dieser Kriterien? 
 		\subsection{Unterstützung für Unternehmen und Kunden bei der Auswahl}
 		%auch erklären, dass Datenhoheit bei Microsoft keine Rolle spielt weil die Rechenzentrum in DE haben (braucht aber noch Quelle)
-
+		Es wird nun für jedes Kriterium eine Entscheidungsunterstützung aufgestellt:
+		\setlist{noitemsep}
+		\begin{itemize}
+			\item[1.] Grad der individuellen Anpassungen
+			\begin{itemize}
+				\item Je mehr Anpassungen auf Seiten des Kunden notwendig sind, um die speziellen Anforderungen oder Geschäftsmethoden abzubilden, umso eher wird die Nutzung einer private Cloud oder On-Premise-Umgebung empfohlen \cite{Anhang}.
+			\end{itemize}
+			\item[2.] Gleichzeitig aktive User
+				\begin{itemize}
+					\item  Umso höher diese User-Anzahl, umso höher auch die einmaligen Anschaffungskosten bei On-Premise und/oder die Zahlungen für Cloud-Dienste. Hierbei muss je Anbieter und Dienstleister bei Cloud sowie notwendige Hardware bei On-Premise abgewogen werden \cite{Murugesan.2016}.
+				\end{itemize}
+			\item[3.] Skalierbarkeit (inkl. Datenmenge)
+				\begin{itemize}
+					\item Die verarbeitung von besonders großen Datenmengen spielt eine große Rolle. Zwar bieten On-Premise-Lösungen die Möglichkeit sich die eigene Infrastruktur auf Basis der eigenen Anforderungen selbst zusammen zu stellen, wobei jedoch Cloud-Lösungen meist eine einfachere Skalierung bieten. Es sollte daher je Cloud-Anbieter entschieden und dabei die eigenen Bedürfnisse betrachtet werden.
+				\end{itemize}
+			\item[4.] Nutzung von Schnittstellen
+				\begin{itemize}
+					\item Bei besonders vielen oder speziellen Schnittstellen wird eine On-Premise oder Private-Cloud-Umgebung empfohlen um einen gewissen Grad an Freiheit zu gewährleisten \cite{Anhang}.
+				\end{itemize}
+			\item[5.] Bereits vorhandene Lizenzen
+				\begin{itemize}
+					\item Welche Software-Lizenzen bereits vorhanden sind, spielt eine gewisse Rolle. Sind zum Beispiel bereits alle Lizenzen für die gewollte Software im Besitz, könnte eine IaaS-Cloud eher den Bedürfnissen gerecht werden, da die Software ja nicht mehr eingekauft werden muss \cite{Anhang}.
+				\end{itemize}
+			\item[6.] Grad der Automatisierung
+				\begin{itemize}
+					\item Hochgradig automatisierte Prozesse benötigen eine stabile und zuverlässige Umgebung. Während IaaS-Anbieter diese Sicherheiten als Dienstleistung anbieten, befinden sich diese bei On-Premise in Eigenverantwortung. 
+				\end{itemize}
+			\item[7.] Datenhoheit 
+				\begin{itemize}
+					\item Der Aspekt der Datenhoheit ist meist subjektiv zu bewerten und muss auf Basis des eigenen Gewissens und des Standorts der Rechenzentren eines Anbieters entschieden werden. Geltende Rechte in den Ländern in denen die Daten gespeichert werden, geben meist rechtliche Bedenken. Dabei sei jedoch anzumerken, dass Microsoft bereits Zahlreiche Rechenzentren in Deutschland anbietet und diese Hürde daher für Azure und BC-Cloud-Umgebungen bei Bedarf nicht gilt \cite{Microsoft-Rechenzentrum.2023}.
+				\end{itemize}
+		\end{itemize}
+		\newpage
 	\section{Praktische Beispiele aus der Industrie}
 		%da brauche ich auf jedenfall ein Experteninterview. Vlt hat Arnold oder irgendein beratender Mensch zeit dafür?
 		%EI-Frage: Welche Situationen fallen dir ein, in denen ein Kunde sich zwischen den beiden Modellen entscheiden musste und aus welchen Gründen, wurde das schlussendliche Modell ausgesucht? 
@@ -298,14 +329,20 @@ bmargin={3cm}]{geometry} % Für das Layout
 			MVB begann zunächst damit bei Microsoft die Public-Business-Central-Cloud zu mieten und darüber das Produkt von Knk zu nutzen. Später jedoch entschied sich MVB dazu auf eine private Cloud in Azure umzusteigen, um den gewollten und erforderlichen Leistungszuwachs zu erzielen.
 			\subsection{Avoxa}\label{Avoxa}
 			Die ,,Avoxa-Mediengruppe deutscher Apotheker'' ist ein deutsches Medienunternehmen welches Zahlreiche Verlagsprodukte und Dienstleistungen im pharmazeutischen Bereich anbietet \cite{Avoxa-Website.2024}. \newline 
-			Avoxa plante, IT-Personal und Hardware-Ressourcen im eigenen Unternehmen abzubauen. Der Verlag entschied sich aufgrunddessen dazu, in Zukunft eine Private-Cloud-Umgebung zu nutzen um die internen IT-Aufwände zu minimieren.
+			Avoxa plant mittelfristig, IT-Personal und Hardware-Ressourcen im eigenen Unternehmen abzubauen. Der Verlag plant aufgrunddessen, in Zukunft eine Private-Cloud-Umgebung zu nutzen um die internen IT-Aufwände zu minimieren.
 			\subsection{Sanoma}\label{Sanoma}
-			Sanoma ist ein finnischer Medienkonzern. Sanomas bietet Angebote wie Zeitschriften, Zeitungen, Fernseh- und  Radiosender sowie Internetangebote im Bereich Bildung an \cite{Sanoma-Website.2024}. \newline
-			Für Sanoma kam persönlich ausschließlich die BC-SaaS-Cloud in Frage. Um diese jedoch optimal zu nutzen, spielte die Integration einer Middleware, zur Kommunikation und Datenverwaltung zwischen verschiedenen Anwendung welche bei Sanoma genutzt werden, eine zentrale Rolle.
+			Sanoma ist ein finnischer Medienkonzern. Sanoma bietet Angebote wie Zeitschriften, Zeitungen, Fernseh- und  Radiosender sowie Internetangebote im Bereich Bildung an \cite{Sanoma-Website.2024}. \newline
+			Für Sanoma kam persönlich ausschließlich die BC-SaaS-Cloud in Frage. Um diese jedoch optimal zu nutzen, spielte die Integration mit einer Middleware, zur Kommunikation und Datenverwaltung zwischen verschiedenen Anwendung, welche bei Sanoma genutzt werden, eine zentrale Rolle.
 		%\subsection{Empfehlungen für die Entscheidungsfindung}
-
+		\newpage
 	\section{Fazit}
 		\subsection{Zusammenfassung der Ergebnisse}
+		In dieser Transferleistung wurde eine detaillierte Analyse der verschiedenen Hosting-Modelle durchgeführt, insbesondere der On-Premise-, Cloud- und deren spezifischen Varianten wie Private Cloud und SaaS (Software as a Service). Ziel war es, deren Vor- und Nachteile zu verstehen und die Implikationen für die knk-Gruppe sowie ihre Kunden zu untersuchen. \newline
+		Die Untersuchung der On-Premise-Lösungen zeigt, dass sie eine hohe Kontrolle über die IT-Infrastruktur und Daten ermöglichen, jedoch mit signifikanten Investitionen in Hardware, Wartung und Verwaltung verbunden sind. Im Gegensatz dazu bieten Cloud-Lösungen eine flexible und skalierbare Nutzung von Ressourcen mit laufenden Kosten, die typischerweise geringer sind als einmalige Investitionen.\newline
+		Jedoch kann der Zugriff auf spezifische technische Aspekte und die Integration neuer Funktionen in der Cloud manchmal eingeschränkt oder kompliziert sein. Die Anpassung und Erweiterung von Funktionen werden oft durch die standardisierten Angebote der Cloud-Anbieter limitiert, was die Flexibilität einschränken kann.\newline
+		In der Analyse der Cloud-Varianten wurde deutlich, dass Private Cloud-Lösungen eine Balance zwischen der Flexibilität der Cloud und der Kontrolle einer On-Premise-Lösung bieten, da sie exklusiv für eine Organisation bereitgestellt werden. SaaS bietet die Möglichkeit, Software vollständig über das Internet zu nutzen, ohne dass lokale Installationen erforderlich sind, was zu einer Verringerung des administrativen Aufwands führt.\newline
+		Ein zentrales Ergebnis dieser Arbeit ist, dass die Wahl des geeigneten Hosting-Modells maßgeblich von den spezifischen Anforderungen der Nutzer abhängt. Faktoren wie Anzahl der gleichzeitig aktiven Nutzer, individuelle Anpassungsbedarfe, Skalierbarkeit und Datenhoheit sind entscheidend für die Modellwahl. Die Analyse liefert einen wertvollen Rahmen, um Unternehmen bei der Entscheidung zwischen On-Premise- und Cloud-Lösungen zu unterstützen.\newline
+		Zusammenfassend lässt sich festhalten, dass jede Hosting-Option ihre eigenen Vor- und Nachteile hat und die Entscheidung für das passende Modell auf einer sorgfältigen Abwägung der jeweiligen Anforderungen basieren sollte. Die Trends hin zu Cloud-Diensten spiegeln sich in der zunehmenden Akzeptanz und Nutzung wider, doch bleibt die Wahl des Hosting-Modells weiterhin kontextabhängig und sollte den spezifischen Bedürfnissen und Rahmenbedingungen der jeweiligen Organisation angepasst werden.\newline
 		\subsection{Ausblick auf zukünftige Entwicklungen}
 		%vlt dafür mal bei MS vorbei schauen. Die haben da bestimmt eine Planung
 
@@ -327,6 +364,6 @@ bmargin={3cm}]{geometry} % Für das Layout
 	\appendix
 	\clearpage
 	\addcontentsline{toc}{part}{Anhang}
-	\includepdf[pages=-,picturecommand*={\label{MEINPDFDOKUMENT}}]{Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (nicht unterschrieben).pdf}
+	\includepdf[pages=-,picturecommand*={\label{MEINPDFDOKUMENT}}]{Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (unterschrieben und korrigiert).pdf}
 
 \end{document}
