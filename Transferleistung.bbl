@@ -187,15 +187,13 @@
 
   \entry{Microsoft-Rechenzentrum.2023}{misc}{}
     \name{author}{1}{}{%
-      {{hash=ASO}{%
-         family={AG},
-         familyi={A\bibinitperiod},
-         given={Sanoma\bibnamedelima Oyj},
-         giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+      {{hash=M}{%
+         family={Micrsosoft},
+         familyi={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{ASO1}
-    \strng{fullhash}{ASO1}
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
     \field{labelnamesource}{author}
   \field{howpublished}{\url{https://news.microsoft.com/de-de/microsoft-verdoppelt-kapazitaet-der-azure-cloud-in-deutschland/}}
     \field{note}{Abgerufen am 26.08.2024}
@@ -251,6 +249,81 @@
     \field{labelnamesource}{author}
     \field{howpublished}{\url{https://www.sanoma.com/en/who-we-are/}}
     \field{note}{Abgerufen am 26.08.2024}
+  \endentry
+
+  \entry{Microsoft-Release-Plan-2024-Wave-1.2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Micrsosoft},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+  \field{howpublished}{\url{https://learn.microsoft.com/de-de/industry/release-plan/2024wave1/}}
+    \field{note}{Abgerufen am 26.08.2024}
+  \endentry
+
+  \entry{LuckyCloud-Artikel.2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=L}{%
+         family={Luckycloud},
+         familyi={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{L1}
+    \strng{fullhash}{L1}
+    \field{labelnamesource}{author}
+  \field{howpublished}{\url{https://luckycloud.de/de/ratgeber/cloud-speicher/5-cloud-trends-in-2024-ein-ausblick-in-die-nahe-zukunft}}
+    \field{note}{Abgerufen am 26.08.2024}
+  \endentry
+
+  \entry{Cao.2020}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CK}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Keyan},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yefan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Meng},
+         familyi={M\bibinitperiod},
+         given={Gongjie},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SQ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Qimeng},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CKLYMG+1}
+    \strng{fullhash}{CKLYMGSQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2020.2991734
+    \endverb
+    \field{pages}{85714\bibrangedash 85728}
+    \field{title}{An Overview on Edge Computing Research}
+    \field{volume}{8}
+    \verb{file}
+    \verb 6bcd9e2b-8b5e-4043-8620-ddeba0e0805a:C\:\\Users\\Jannick.Gottschalk\\
+    \verb AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\n0em
+    \verb p6z07yd50repz1m6xqq34lgt6y6r1ndmohi7zjrk4xu\\Citavi Attachments\\6bcd
+    \verb 9e2b-8b5e-4043-8620-ddeba0e0805a.pdf:pdf
+    \endverb
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2020}
   \endentry
 \enddatalist
 \endinput
