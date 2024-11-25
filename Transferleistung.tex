@@ -1,5 +1,8 @@
-\documentclass[12pt,bibtotoc]{article}
-\usepackage[table]{xcolor}
+%For a Tutorial, how to install Latex and using it with vscode, follow this Website:
+%https://medium.com/@erencanbulut/boost-your-latex-workflow-with-vs-code-and-github-f346b74677be
+
+\documentclass[12pt,bibtotoc]{article}% Legt die Dokumentenklasse als Artikel mit Schriftgröße 12pt fest und fügt das Literaturverzeichnis zum Inhaltsverzeichnis hinzu.
+\usepackage[table]{xcolor}% Ermöglicht farbige Gestaltung von Tabellenzellen und anderen Elementen.
 \usepackage[ngerman]{babel} % Für Silbentrennung
 \usepackage[utf8]{inputenc} % Um Umlaute und Sonderzeichen nutzen zu können
 \usepackage[a4paper,
@@ -8,7 +11,7 @@ rmargin={2cm},
 tmargin={2cm},
 bmargin={3cm}]{geometry} % Für das Layout
 \usepackage{setspace} % Für den Zeilenabstand
-\setstretch{1.25}
+\setstretch{1.25}% Setzt den Zeilenabstand auf das 1,25-fache, um den Text lesbarer zu machen.
 \usepackage{graphicx} % Um Bilder einzufügen
 \usepackage{wrapfig} % Um Bilder im Fließtext einzubinden
 \usepackage{csquotes} % Um Text in Anführungsstriche zu setzen
@@ -19,35 +22,37 @@ bmargin={3cm}]{geometry} % Für das Layout
 \usepackage{acronym} % Um Akronyme zu definieren
 \usepackage{textcomp} % Um spezielle Zeichen verwenden zu können (z.B. °, µ)
 \usepackage{subcaption} % Um mehrere Bilder zusammen einzustellen und Links zu Abbildungen zu korrigieren
-\usepackage{float}
-\usepackage{placeins}
+\usepackage{float}% Ermöglicht die präzise Platzierung von Gleitobjekten (wie Tabellen und Abbildungen) im Dokument.
+\usepackage{placeins}% Verhindert, dass Gleitobjekte (z.B. Tabellen oder Abbildungen) über bestimmte Stellen im Text hinausrutschen, indem \FloatBarrier verwendet werden kann.
 \usepackage{cleveref} %für Querverweise auf Kapitel: see section \cref{Kapitelname}
 
 %Anpassung für itemize:
-\usepackage{enumitem}
-\setlist[itemize]{itemsep=0pt, topsep=0pt, leftmargin=1.5em}
+\usepackage{enumitem} % Ermöglicht die Anpassung von Listenformatierungen, z.B. bei Aufzählungen.
+\setlist[itemize]{itemsep=0pt, topsep=0pt, leftmargin=1.5em} % Setzt den Abstand zwischen Listenelementen auf 0 und reduziert den Einzug der Aufzählung.
 
-\floatplacement{figure}{H}
 
+\floatplacement{figure}{H} % Erzwingt, dass Abbildungen genau an der Stelle im Text erscheinen, an der sie definiert sind (H = here).
 
 \usepackage[backend=bibtex, citestyle=ieee]{biblatex} % Um Literatur einzufügen
-\bibliography{Quellenverzeichnis}
 
-\pagestyle{fancy}
-\fancyhf{}
-\setlength\headheight{59.76491pt}
-\renewcommand{\headrulewidth}{0pt} % Um schwarze Linie zu entfernen
-\chead{\includegraphics[width=\textwidth]{Resources/header.png}} % Grafik einfügen
-\cfoot{\thepage}
+\bibliography{Quellenverzeichnis} % Verweist auf die Datei 'Quellenverzeichnis.bib' für die Literaturangaben im Dokument.
+
+\pagestyle{fancy} % Aktiviert benutzerdefinierte Kopf- und Fußzeilen im Dokument.
+\fancyhf{} % Löscht alle Voreinstellungen für Kopf- und Fußzeilen.
+\setlength\headheight{59.76491pt} % Passt die Höhe der Kopfzeile an die eingefügte Grafik an.
+\renewcommand{\headrulewidth}{0pt} % Entfernt die Standardlinie unter der Kopfzeile.
+\chead{\includegraphics[width=\textwidth]{Resources/header.png}} % Fügt eine Grafik als zentrierten Header in die Kopfzeile ein.
+\cfoot{\thepage} % Setzt die Seitenzahl zentriert in die Fußzeile.
 
 \newcounter{romanBeginningEnd} % Um Römische Seitenzahl zu speichern
 
-% Sektionen refernezen anpassen
+% Sektionen referenzen anpassen
 \addto\extrasngerman{%
-	\renewcommand{\sectionautorefname}{siehe}%
-	\let\subsectionautorefname\sectionautorefname%
-	\let\subsubsectionautorefname\sectionautorefname%
+	\renewcommand{\sectionautorefname}{siehe} % Ändert die automatische Referenzbezeichnung für 'section' auf "siehe".
+	\let\subsectionautorefname\sectionautorefname % Setzt die automatische Referenzbezeichnung für 'subsection' auf die gleiche wie für 'section'.
+	\let\subsubsectionautorefname\sectionautorefname % Setzt die automatische Referenzbezeichnung für 'subsubsection' auf die gleiche wie für 'section'.
 }
+
 
 
 
@@ -74,17 +79,15 @@ bmargin={3cm}]{geometry} % Für das Layout
 	%\listoftables
 	\newpage
 	\section{Abkürzungsverzeichnis}
+
 	% Abkürzungen
 	\begin{acronym}[LängsteAbkürzung] % Für Formatierung längste Abkürzung eintragen
-	\acro{ac:Label}[knk]{knk Business Software AG}
-	\acro{ac:Label}[SaaS]{Software as a Service}
-	\acro{ac:Label}[IaaS]{Infrastructure as a Service}
-	\acro{ac:Label}[CRM]{Customer Relationship Management}
-	\acro{ac:Label}[BC]{Business Central}
+	% Beispiel:
+	\acro{ac:Label}[MA]{Mitarbeiter}
 	\end{acronym}
-	\newpage %Ich werde ganz sicherlich keine Abkürzungen einbauen um meine Transferlistung mit weniger Seiten zu bestücken. DAFUQ
+	\newpage
 	
-	\setcounter{secnumdepth}{3} % Überschriften wieder numerieren
+	\setcounter{secnumdepth}{3} % Überschriften wieder normal numerieren
 	
 	\setcounter{romanBeginningEnd}{\the\value{page}} % Speichern der römischen Seitenzahl
 	\setcounter{page}{1} % Mit Arabischen Seitenzahlen wieder bei 1 anfangen
@@ -102,11 +105,13 @@ bmargin={3cm}]{geometry} % Für das Layout
 		%\includegraphics[keepaspectratio,width=\textwidth,height=\textheight]{statistaEntwicklungFachkraefteindex.png} \renewcommand{\figurename}{Abb.}
 		%\caption{\small Entwicklung des Fachkr{\"a}fteindex in Deutschland vom 1. Quartal 2015 bis zum 4. Quartal 2022; Hays über Statista, 2023}
 	%\end{figure}
-	
-	%\cite{knk-info.2023}
+
+	% Zitieren:
+	%\cite{BeispielCite} BeispielCite = Name einer Zitation aus dem Quellenverzeichnis
 	
 	%\newpage
-	
+
+	% Einbinden einer figure:
 	% \begin{figure}[H] %Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022
 	% 	\centering
 	% 	\includegraphics[keepaspectratio,width=\textwidth,height=\textheight]{"Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png"} 
@@ -115,280 +120,30 @@ bmargin={3cm}]{geometry} % Für das Layout
 	% \end{figure}
 	
 	%(\cite{Oelsnitz.2023}, Seite 4-5)
-	
+
 	%\begin{quote}
 	%	,,Der aktuelle Wandel in Wirtschaft und Gesellschaft führt zu Umw{\"a}lzungen in einem bislang nicht gekannten Ausmaß. Strukturen, Prozesse, Aufgabenzuschnitte ver{\"a}ndern sich
 	%	grundlegend – und dies in nahezu allen Branchen und Gesch{\"a}ftsbereichen.''\newline (\cite{Longmu.2021}, Seite 3)
-	%\end{quote}
+	%\end{quote} --> Sowas wie {\"a} statt ä, muss nicht mehr gemacht werden. Dafür wurde package installiert.
 
 	%################################################################
 	%Ab hier Inalt
 
-	\section{Einleitung}
-	%kleine Einleitung mit möglichen Methodenauflistung und einer groben Gliederungsbeschreibung?
-	%möglicherweise eine Allgemeine Erklärung was Hosting-Modelle sind um den Leser bei den Anforderungsprofilen nicht zu überfordern?
-	\subsection{Knk}
-	Die Knk-Gruppe ist ein norddeutsches, international agierendes Unternehmen mit Hauptsitz in Kiel. Sie setzt sich aus den Unternehmen knk Business Software AG, der Business Unit muellerPrange, der knk Customer Engagement GmbH, der knk Cloud Services GmbH und Bradbury Phillips International zusammen. Hinzu kommen die knk Software LP (USA), knk Software Ltd. (UK) und knk France SAS (Frankreich)\cite{knk-info.2023}.
-	\newline \newline
-	Mit ihren Lösungen und Services innerhalb der Gruppe unterstützen sie Verlage und Medienunternehmen dabei, die Chancen der Digitalisierung und aktuelle Entwicklungen der Branche zu nutzen, Arbeitsabläufe zu optimieren und neue Zielgruppen zu erreichen. Im Fokus stehen hierbei neue Content-basierte Geschäftsmodelle, Business Intelligence und Künstliche Intelligenz für Verlage, CRM, Social Media Marketing sowie Marketing Automation\cite{knk-info.2023}.
-	Das Produkt der knk Gruppe besteht aus dem Grundmodell von Business Central aus dem Hause Microsoft und wird in der ,,AL-Programming Language'' entwickelt und erweitert.
-	\subsection{Hintergrund, Motivation und Zielsetzung der Transferleistung}
-	Knk bietet Großprojekte für Medien- und Verlagshäuser in Form von KnkVerlag an. 
-	Um nun auch kleinere Verlagshäuser anzusprechen, wurde knkMedia SaaS angekündigt und zur Verfügung gestellt \cite{knk-kuendigtSaaS-an.2023}.
-	\newline
-	knkMedia Saas soll schnelle Aktualisierungen innerhalb von Stunden ermöglichen und über die Microsoft-Cloud verfügbar sein.
-	Die Vermarktung von knkMedia SaaS als fertiges Produktpacket soll nun auch kleineren Verlagen mit 10 bis 20 Benutzern das ERP-System von Microsoft und die dazu passenden Knk-Erweiterungen attraktiver gestalten \cite{knk-kuendigtSaaS-an.2023}.
-	\newline
-	Die Motivation dieser Arbeit besteht darin, einen Überblick auf die verschiedenen Hostingmodelle zu bekommen und einen möglichst genauen Leitfaden zur Entscheidungsfindung aufzubauen.
-	Der daraus entstehende Leitfaden soll ermöglichen umfassender über Vor- und Nachteile informiert zu sein und bessere Entscheidungen aufgrund dieser zu treffen. 
-	\newline
-	Diese Transferleistung wird allgemeine Fakten über Hosting-Modelle offenlegen, sich jedoch stark an Microsoft-Dienste orientieren, um das von Microsoft entwickelte und von Knk erweiterte Business Central ERP-System 
-	thematisch in den Vordergrund zu rücken. Zudem vertreibt Knk ihr Produkt nur in Verbindung mit Business Central.
-	%möglicherweise erwähnen, dass es sich erstmal nur um BC dreht (check)
-	%\subsection{Forschungsfrage} bietet aber vlt nicht genug
-
-
-	% \section{Anforderungsanalyse}
-	% \subsection{Erfassung der spezifischen Anforderungen von Knk und Kunden}
-	% %EI-Frage: Mir fällt keine ein. Thema streichen
-	% %vlt auch subsubsection
-	% \subsection{Technische und gesellschaftliche Anforderungen}
-
-	\section{Hosting-Modelle im Überblick}
-		\subsection{On-Premise}
-		Bei einem On-Premise-Modell handelt es sich um eine lokal installierte Software, die auf jedem Computer eines Benutzers installiert werden muss, um die gewünschten Funktionalitäten zur Verfügung zu stellen.
-		Meist sind auch die Daten, die eine Unternehmung für diese On-Premise-Sofware benötigt auf lokalen oder firmenweiten Datenbanken gespeichert \cite{AlHayek.2020}. 
-		Bei Knk wird On-Premise angeboten, wenn der Kunde bereit ist, eigene Server für die Software-Lösung bereitzustellen \cite{Anhang}.
-		\subsection{Cloud}
-		%auf jedenfall noch mehr über die einzelnen Sachen schreiben
-		%https://www.leanix.net/de/wiki/apm/saas-vs-cloud#What-is-cloud-based  Cloud ist überbegriff und SaaS ist eine unterkategorie. Das im SaaS-Kapitel hervorzeigen. 
-		Cloud erntet immer mehr Aufmerksamkeit und wird weitesgehend adaptiert. Als Paradigmenwechsel in der IT betrachtet, wird es schon für vielfältige Anwedungsbereiche sowohl im geschäftlichen aber auch im privaten und behördlichen Bereich angewendet \cite{Murugesan.2016}.
-		\newline
-		Die meisten privaten Nutzer verwenden Cloud bereits, um Fotos zu speichern oder für den eigenen Online-Kalendar sowie Online-Datenspeicherungen (z.B.: OneDrive). \newline 
-		Klein- und mittelgroße Unternehmen gebrauchen Cloud-Lösungen zum Beispiel für Cloud-basierte Anwedungen, Gehaltsabrechnungen, Kundenbeziehungsmanagement (CRM), Business Intelligence oder Datensammlung und Analyse. \newline
-		Großunternehmen nutzen Cloud-Dienste zum Beispiel für Geschäftsfunktionen wie Supply-Chain-Management, Datenspeicherung, Big-Data-Analysen, Geschäftsprozessmanagement, CRM oder Anwendungsentwicklung \cite{Murugesan.2016}.
-		%nochmal sagen: Jo meist einfach Browser an und fertig der Lachs
-		%\begin{singlespace} 
-		\newline
-			Es muss bei Cloud auf folgende Grundeigenschaften verwiesen werden \cite{Murugesan.2016}.
-			\begin{itemize}
-				\item Clouds stehen massive Ressourcen bei Bedarf zur Verfügung.
-				\item Ressourcen können bedarfsgerecht skaliert werden.
-				\item Sie bieten Ubiquität. Dies bedeutet, dass Daten unabhängig von Standort, Benutzer und Tageszeit zugänglich gemacht werden können.
-				\item Es wird die gemeinsame Nutzung von Daten und unternehmensweite Datenanalyse sowie Zusammenarbeit gefördert.
-				\item Clouds können sich bei Bedarf selbst rekonfigurieren, um die Verfügbarkeit im Falle eines Ausfalls ihrer Datenverarbeitungsressourcen zu gewährleisten.
-				\item Sie bieten eine vereinfachte Web-Browser-Oberfläche.
-			\end{itemize}
-		Diese Grundeigenschaften sind nur auf allgemeine Cloud-Lösungen beschränkt und könnnten je Anbieter und Cloud-Art variieren \cite{Murugesan.2016}.
-		%\end{singlespace}
-		%herausfinden wie genau wir Cloud einsetzen, wer es dann hostet und wie es funktioniert und inwiefern es sich von SaaS abgrenzt.
-		%auf jedenfall erwähnen seit wann Microsoft auch Cloud für BC anbietet
-		\newpage
-		\subsubsection{Private Cloud}
-		Bei einer Private Cloud muss das betreibende Unternehmen selbst für den Betrieb, die Verwaltung und die Wartung der Software und dem dazugehörigen Clouddienst sorgen oder an einen Drittanbieter abtreten.
-		Dabei müssen die passende Software und die dazugehörigen Lizenzen eingekauft werden sowie Mitarbeiter für die Einrichtung der Software auf dem Cloud-Dienst an- oder abgestellt werden.
-		Es wird meist ein Server bei einem Drittanbieter gemietet, um die gewünschte Software darauf unterzubringen \cite{Anhang}. \newline
-		Dies entspricht dem Geschäftsmodell von Infrastructure as a Service bei welchem Hardware wie Server, CPU, Speicher, Netzwerkausrüstung und Rechenzentrumseinrichtung, als Dienstleistung bereitgestellt wird.
-		Anstatt diese Ressourcen also zu kaufen, erhalten die Kunden sie als vollständig ausgelagerte Dienstleistung für die Zeit, in der sie sie benötigen \cite{Murugesan.2016}.
-		\subsubsection{SaaS}
-		Software as a Service bezeichnet eine Form der Nutzung von Cloud-Diensten, bei der eine Anwendung von einem Cloud-Anbieter gehostet und über das Internet oder ein spezielles Netz bereitgestellt wird. Beim SaaS-Modell entfällt die Notwendigkeit, die Software lokal zu installieren und zu verwalten, da diese Aufgaben vom Anbieter übernommen werden. Die Nutzer zahlen für die Nutzung der Dienstleistung, was die Kosten in eine kontinuierliche Ausgabe umwandelt, im Gegensatz zu einer großen Anfangsinvestition beim Kauf. SaaS ist dabei als reine Softwarelösung zu verstehen und wird oft in Verbindung mit Infrastructure as a Service (IaaS) verwendet, wie in der Business-Central-Cloud, wodurch keine zusätzlichen Hardwarekosten anfallen. \cite{Murugesan.2016}\cite{Anhang}.
-		%sind unterkategorie von Cloud-Lösungen. 
-		
-	\section{Detaillierter Vergleich der Hosting-Modelle}
-			Durch die stationäre Bereitstellung der Umgebung und einer erforderlichen Installation des Produktes auf jedem Gerät ist bei On-Premise eine bestimmte Flexibilität nicht gegeben.
-			Änderungen an der Software sorgen meist für einen gewissen Mehraufwand auf Seiten des Kunden und des Entwicklers. Dieser Mehraufwand ist bei Cloud durch ein einfach nutzbares Browser-Interface und ein vergleichbar einfaches Roullout von Änderungen auf zugreifbare Server nicht gegeben. 
-			On-Premise enthält daher Kostenkomponenten, die eine Eigenverantwortung für Faktoren wie Einrichtung des Servers vor Ort, Serversoftware, Arbeitsaufwand für die Systemadministatoren und andere Infrasrukturkosten mit einschließt, welche bei einem Cloud-Service in der Regel nicht anfallen \cite{Fisher.2018}.
-			Nicht zu vergessen sind auch unerwartete Kosten aufgrund von Hardwareverschleiß oder anderen Begebenheiten, welche die Kosten in die Höhe treiben können, was durch die Eigenverantwortung durch On-Premise auf lange Sicht kaum zu vermeiden ist.
-			\newline
-			Ein weiterer Aspekt ist Sicherheit und Datenschutz. Durch die lokale Speicherung der Daten bei On-Premise kann die maximale Macht über die eigenen Daten ausgeübt werden. 
-			Bei Cloud-Lösungen wird diese Macht jedoch an den Host der Cloud-Server abgegeben, der die Server zur Datenspeicherung besitzt. Dies kann im subjektiven Fall ein Problem darstellen. 
-			\newline
-			Die Skalierung der Ressourcen hebt Cloud maßgeblich von On-Premise ab. On-Premise bietet mit seinen lokalen Server eine meist feststehende beziehungsweise schwer zu erweiterbare Ressourcenstruktur. Braucht eine Unternehmung mit einem On-Premise-System eine 
-			Ressourcenerweiterung, muss häufig teure Hardware nachgekauft werden, was eine hohe einmalige Investition bedeutet.
-			Bei Cloud wiederum, muss der Anbieter mehr Ressourcen freigeben, was wieder eine höhere Bindung an den Cloud-Host bedeutet, jedoch auch eine Vermeidung von Investitionen und je nach Anbieter lediglich eine Erhöhung der Gebühren zur Folge hat \cite{Murugesan.2016}.
-			\newline
-			\subsection{Faktoren für Knk und den Entwicklungsprozess}
-			%Es muss auch erwähnt werden welche Aspekte dies für unsere Firma sind
-			%%EI-Frage: Nachricht an Carsten: Hey Carsten. Ich habe eine Frage für meine TL: In welchen wesentlichen Aspekten unterscheidet sich der Rollout von Änderungen bei Kunden die On-Prem sind oder solchen die Cloud nutzen?
-			Den Betrieb von On-Premise-Modellen geht häufig ein tiefer technischer Zugriff einher. Beispielsweise ist der Zugriff auf die SQL-Datenbank direkt möglich. 
-			Bei einem BC-Cloud-Modell ist dieser Zugriff nur über einen extra angefertigten Admin-Bereich möglich der eingeschränkte Funktionalitäten im Gegensatz zu SQL zur Verfügung stellt.
-			Dieser technische Zugriff gewährt ebenfalls eine bessere Möglichkeit, spezifische Anpassungen vorzunehmen, wobei dies aber auch größere Verantwortung in Bezug auf Wartung und Verwaltung bedeutet \cite{Anhang}. \newline
-			Private Cloud ermöglicht im Gegensatz eine schnellere Installation von Apps und das Einspielen von AddOns. Dies reduziert sowohl Aufwand als auch eine mögliche Beschleunigung der Implementierung von neuen Funktionen.
-			Im Thema Performance bieten On-Premise-Server theoretisch eine höhre Rechenleistung. Jedoch sind diese Server in der Praxis oft stark ausgelastet, was die tatsächliche Leistung beeinträchtigen kann.
-			Zudem muss bei der Arbeit mit verschiedenen Modellen, wie OnPrem und OnCloud, darauf geachtet werden, dass die gleichen Versionen von AddOns verwendet werden, um Konsistenz und Kompatibilität sicherzustellen \cite{Anhang}. \newline
-			Schließlich erfordern Cloud-basierte Modelle oft den Einsatz neuer Werkzeuge und Methoden zur Administration. Administratoren müssen sich an diese neuen Werkzeuge gewöhnen, was zusätzlichen Schulungsaufwand mit sich bringen kann \cite{Anhang}.
-			
-			\newpage
-			\subsection{Aktuelle Trends und Entwicklungen}\label{Aktuelle Trends und Entwicklungen}
-			%hierzu vlt auch nochmal bei PMS nachfragen, wie viele Projekte momentan zu Cloud wechseln. Vlt auch in einem Experteninterview oder so idk
-			%Microsoft aktuelle Entwicklung vorheben gegenüber diesem Thema
-			Die folgende Statisitk zeigt die Entwicklung der Cloud-Nutzung in deutschen Unternehmen zwischen 2011 und 2022.
-			Dabei wird der Anteil der Unternehmen dargestellt, die Cloud-Dienste nutzen, sowie der Anteil der Unternehmen, die planen oder diskutieren, Cloud einzuführen. 
-			\begin{figure}[H] %Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022
-				\centering
-				\includegraphics[keepaspectratio,width=\textwidth,height=\textheight]{"Content/Pictures/Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022.png"} 
-				\renewcommand{\figurename}{Abb.}
-				\caption{\small Nutzung von Cloud Computing in Unternehmen in Deutschland in den Jahren 2011 bis 2022}
-			\end{figure}
-			Die Statistik verdeutlicht, dass die Akzeptanz und Nutzung von Cloud in deutschen Unternehmen in den letzten Jahres bis 2022 erheblich gestiegen ist. 
-			%EI-Frage: Was ist der zu beobachtende Trend von Kunden gegenüber der Entscheidung der Nutzung von Cloud oder On-Prem
-			Beobachtet wird seitens Knk, dass zunehmend Kunden zu einer Private-Cloud oder SaaS-Lösung tendieren. Gerade Unternehmen, dessen Expertise nicht zentral zur IT gehört, bewegen sich in diese Richtung.
-			Größere Unternehmen setzen auch auf On-Premise-Lösungen, da diese mehr Spielraum für individuelle Anpassungen bieten und daher für ihre spezifischen Anforderungen attraktiver sind. \cite{Anhang}.
-			\newpage
-			\section{Entwicklung von Entscheidungskriterien}
-	Zunächst werden Kriterien aufgestellt und erläutert \cite{Anhang}\cite{Murugesan.2016}\cite{Fisher.2018}:
-	\setlist{noitemsep}
-	\begin{itemize}
-		\item User-Anzahl %
-		\begin{itemize}
-			\item Die Anzahl der User innerhalb eines Unternehmens spielt eine große Rolle.
-		\end{itemize}
-		\item Skalierbarkeit 
-			\begin{itemize}
-				\item In welchem Maße das eigene System skalierbar sein muss und wie viel Datenvolumen es bewältigen können soll.
-			\end{itemize}
-		\item Datenhoheit %
-			\begin{itemize}
-				\item Ist der Besitzer der Daten bereit, diese auch in die Hand von Drittanbietern zu legen?
-			\end{itemize}
-		\item Grad der individuellen Anpassungen %
-			\begin{itemize}
-				\item Je mehr Anpassungen erforderlich sind, desto eher wird ein On-Premise- oder Private-Cloud-Modell in Betracht gezogen.
-			\end{itemize}
-		\item Nutzung von Schnittstellen %
-			\begin{itemize}
-				\item Schnittstellen werden benötigt, um den Datenaustausch zwischen einzelnen Anwendungen zu ermöglichen. Die Anzahl und Komplexität kann je nach Unternehmung stark abweichen.
-			\end{itemize}
-		\item Bereits vorhandene Lizenzen %
-			\begin{itemize}
-				\item Welche Lizenzen schon bereits zur im Besitz des Kunden stehen, kann auch entscheiden welches Modell besser geeignet ist. 
-			\end{itemize}
-		\item Grad der Automatisierung %
-			\begin{itemize}
-				\item Hochgradig automatisierte Prozesse erfordern eine stabile und leistungsfähige Umgebung. 
-			\end{itemize}
-	\end{itemize}
-	%!!!!!Vlt davon absehen hier schon eine Zuordnung zu den Modellen zu schreiben.
-	%EI-Frage: Welche weitere Entscheidungskriterien tauchen bei Kunden häufig auf?
-		\subsection{Gewichtung der Kriterien nach Relevanz}
-		Aus den Vorangegangenen Informationen und dem Experteninterview mit Ansgar Pahl \cite{Anhang} geht folgende Soriterung der Kriterien hervor:
-		\setlist{noitemsep}
-		\begin{itemize}
-			\item[1.] Grad der individuellen Anpassungen
-			\item[2.] Gleichzeitig aktive User
-			\item[3.] Skalierbarkeit (inkl. Datenmenge)
-			\item[4.] Nutzung von Schnittstellen
-			\item[5.] Bereits vorhandene Lizenzen
-			\item[6.] Grad der Automatisierung
-			\item[7.] Datenhoheit 
-		\end{itemize}
-		Diese Sortierung mag jedoch subjektiv abweichen und sollte daher kritisch betrachtet werden und je nach Geschäftssituation angepasst werden.
-		\newpage
-		%EI-Frage: Was ist deiner Meinung nach das Relevanteste dieser Kriterien? 
-		\subsection{Unterstützung für Unternehmen und Kunden bei der Auswahl}
-		%auch erklären, dass Datenhoheit bei Microsoft keine Rolle spielt weil die Rechenzentrum in DE haben (braucht aber noch Quelle)
-		Es wird nun für jedes Kriterium eine Entscheidungsunterstützung aufgestellt:
-		\setlist{noitemsep}
-		\begin{itemize}
-			\item[1.] Grad der individuellen Anpassungen
-			\begin{itemize}
-				\item Je mehr Anpassungen auf Seiten des Kunden notwendig sind, um die speziellen Anforderungen oder Geschäftsmethoden abzubilden, umso eher wird die Nutzung einer private-Cloud oder On-Premise-Umgebung empfohlen \cite{Anhang}.
-			\end{itemize}
-			\item[2.] Gleichzeitig aktive User
-				\begin{itemize}
-					\item  Umso höher diese User-Anzahl, umso höher auch die einmaligen Anschaffungskosten bei On-Premise und/oder die Zahlungen für Cloud-Dienste. Hierbei muss je Anbieter und Dienstleister bei Cloud sowie notwendige Hardware bei On-Premise abgewogen werden \cite{Murugesan.2016}.
-				\end{itemize}
-			\item[3.] Skalierbarkeit (inkl. Datenmenge)
-				\begin{itemize}
-					\item Die Verarbeitung besonders großer Datenmengen ist von zentraler Bedeutung. Zwar bieten On-Premise-Lösungen die Möglichkeit, sich die eigene Infrastruktur auf Basis der eigenen Anforderungen selbst zusammenzustellen, wobei jedoch Cloud-Lösungen eine einfachere Skalierung bieten. Es sollte daher je nach Cloud-Anbieter entschieden und dabei die eigenen Bedürfnisse berücksichtigt werden.
-				\end{itemize}
-			\item[4.] Nutzung von Schnittstellen
-				\begin{itemize}
-					\item Bei besonders vielen oder speziellen Schnittstellen wird eine On-Premise oder Private-Cloud-Umgebung empfohlen, um einen gewissen Grad an Freiheit zu gewährleisten \cite{Anhang}.
-				\end{itemize}
-			\item[5.] Bereits vorhandene Lizenzen
-				\begin{itemize}
-					\item Welche Software-Lizenzen bereits vorhanden sind, kann entscheidend sein. Sind zum Beispiel bereits alle Lizenzen für die gewollte Software im Besitz, könnte eine IaaS-Cloud eher den Bedürfnissen gerecht werden, da die Software nicht mehr eingekauft werden muss \cite{Anhang}.
-				\end{itemize}
-			\item[6.] Grad der Automatisierung
-				\begin{itemize}
-					\item Hochgradig automatisierte Prozesse benötigen eine stabile und zuverlässige Umgebung. Während IaaS-Anbieter diese Sicherheiten als Dienstleistung anbieten, befinden sich diese bei On-Premise in Eigenverantwortung. 
-				\end{itemize}
-			\item[7.] Datenhoheit 
-				\begin{itemize}
-					\item Der Aspekt der Datenhoheit ist subjektiv zu bewerten und muss auf Basis des eigenen Gewissens und des Standorts der Rechenzentren eines Anbieters entschieden werden. Geltende Rechte in den Ländern, in denen die Daten gespeichert werden, geben meist rechtliche Bedenken. Dabei sei jedoch anzumerken, dass Microsoft bereits Zahlreiche Rechenzentren in Deutschland anbietet und diese Hürde daher für Azure und BC-Cloud-Umgebungen bei Bedarf nicht gilt \cite{Microsoft-Rechenzentrum.2023}.
-				\end{itemize}
-		\end{itemize}
-		\newpage
-	\section{Praktische Beispiele aus der Industrie}
-		%da brauche ich auf jedenfall ein Experteninterview. Vlt hat Arnold oder irgendein beratender Mensch zeit dafür?
-		%EI-Frage: Welche Situationen fallen dir ein, in denen ein Kunde sich zwischen den beiden Modellen entscheiden musste und aus welchen Gründen, wurde das schlussendliche Modell ausgesucht? 
-		Aus dem Experteninterview mit Ansgar Pahl \cite{Anhang}, gehen drei Fallbeispiele hervor, die in den folgenden Unterkapiteln \ref{MVB}, \ref{Avoxa} und \ref{Sanoma} erläutert werden.
-			\subsection{MVB}\label{MVB}
-			Der ,,Marketing- und Verlagsservice des Buchhandels'' (MVB) ist ein Kunde von Knk mit Sitz in Frankfurt. Sie bieten Verlagsprodukte und Dienstleistungen an. Sie gehören zur Börsenvereinsgruppe \cite{MVB-Website.2024}.\newline 
-			MVB begann zunächst damit bei Microsoft die Public-Business-Central-Cloud zu mieten und darüber das Produkt von Knk zu nutzen. Später jedoch entschied sich MVB dazu, auf eine private Cloud in Azure umzusteigen, um den gewollten und erforderlichen Leistungszuwachs zu erzielen.
-			\subsection{Avoxa}\label{Avoxa}
-			Die ,,Avoxa-Mediengruppe deutscher Apotheker'' ist ein deutsches Medienunternehmen welches zahlreiche Verlagsprodukte und Dienstleistungen im pharmazeutischen Bereich anbietet \cite{Avoxa-Website.2024}. \newline 
-			Avoxa plant mittelfristig, IT-Personal und Hardware-Ressourcen im eigenen Unternehmen abzubauen. Der Verlag beabsichtigt aufgrunddessen, in Zukunft eine Private-Cloud-Umgebung zu nutzen, um die internen IT-Aufwände zu minimieren.
-			\subsection{Sanoma}\label{Sanoma}
-			Sanoma ist ein finnischer Medienkonzern. Sanoma bietet Angebote wie Zeitschriften, Zeitungen, Fernseh- und  Radiosender sowie Internetangebote im Bereich Bildung an \cite{Sanoma-Website.2024}. \newline
-			Für Sanoma kam persönlich ausschließlich die BC-SaaS-Cloud in Frage. Um diese jedoch optimal zu nutzen, spielte die Integration mit einer Middleware, zur Kommunikation und Datenverwaltung zwischen verschiedenen Anwendung, welche bei Sanoma genutzt werden, eine zentrale Rolle.
-		%\subsection{Empfehlungen für die Entscheidungsfindung}
-		\newpage
-	\section{Fazit}
-		\subsection{Zusammenfassung der Ergebnisse}
-		In dieser Arbeit wurde untersucht, wie verschiedene Hosting-Modelle funktionieren, speziell On-Premise, Cloud und deren spezielle Formen wie Private Cloud und SaaS (Software as a Service). Ziel war es, die Vor- und Nachteile dieser Modelle zu verstehen und herauszufinden, was sie für die knk-Gruppe und ihre Kunden bedeuten. \newline
-		On-Premise-Lösungen bieten viel Kontrolle über die IT-Infrastruktur und Daten, erfordern jedoch hohe Investitionen in Hardware, Wartung und Verwaltung. Cloud-Lösungen hingegen bieten eine flexible Nutzung von Ressourcen zu laufenden Kosten, die meist niedriger sind als die einmaligen Investitionen bei On-Premise-Lösungen. \newline
-		Allerdings kann es in der Cloud manchmal schwierig sein, auf bestimmte technische Details zuzugreifen oder neue Funktionen zu integrieren. Die Anpassung und Erweiterung von Funktionen kann durch die Standardangebote der Cloud-Anbieter begrenzt sein.\newline
-		Bei der Untersuchung der Cloud-Varianten wurde klar, dass Private Cloud-Lösungen eine gute Balance zwischen der Flexibilität der Cloud und der Kontrolle einer On-Premise-Lösung bieten, da sie nur für eine einzelne Organisation bereitgestellt werden. SaaS ermöglicht es, Software komplett über das Internet zu nutzen, ohne sie lokal installieren zu müssen, was den administrativen Aufwand verringert. \newline
-		Ein wichtiges Ergebnis dieser Arbeit ist, dass die Wahl des passenden Hosting-Modells von den spezifischen Bedürfnissen der Nutzer abhängt. Faktoren wie die Anzahl der Nutzer, der Bedarf an Anpassungen, Skalierbarkeit und Datenhoheit spielen eine wichtige Rolle. Die Analyse bietet eine gute Grundlage, um Unternehmen bei der Entscheidung zwischen On-Premise- und Cloud-Lösungen zu helfen.\newline
-		Zusammengefasst hat jede Hosting-Option ihre eigenen Vor- und Nachteile. Die Entscheidung für das richtige Modell sollte sorgfältig anhand der jeweiligen Anforderungen getroffen werden. Obwohl Cloud-Dienste immer beliebter werden, bleibt die Wahl des Hosting-Modells von den spezifischen Bedürfnissen und Bedingungen der Organisation abhängig.
-		\newpage
-		\subsection{Ausblick auf zukünftige Entwicklungen}
-		%vlt dafür mal bei MS vorbei schauen. Die haben da bestimmt eine Planung
-		In dieser Transferleistung wurde bereits festgestellt, dass Cloud an Popularität gewinnt (siehe \ref{Aktuelle Trends und Entwicklungen}).
-		Microsoft will diese Entwicklung auch weiter voran treiben und plant die Micrsosft Cloud für bestimmte Geschäftszweige zu optimieren:
-		\begin{itemize}
-			\item Micrsosoft Cloud für Nonprofit
-			\begin{itemize}
-				\item Hierbei handelt es sich um eine auf Azure basierende Plattform, die er Unternehmen ermöglicht, Chancengleichheit bei Qualifikationen zu erreichen und Schulungen für Gemeinden anzubieten.
-						Dies soll den Organisationen dabei helfen, Freiwillige zu schulen sowie Bildungs-, Gesundheits- oder Freiwilligendiesnste vor Ort besser bereitszustellen.
-						All dies soll bei möglichst geringer Datenbandbreite zur Verfügung gestellt werden, um Offline-Lernen zu ermöglichen.
-						Ein KI-gesteuertes Modell zur Spendenwahrscheinlichkeit soll zusätzlich eingeführt werden, welches ermöglicht ein Muster in den Spenden zu erkennen und bessere Planung zu gewährleisten \cite{Microsoft-Release-Plan-2024-Wave-1.2024}. 
-			\end{itemize}
-			\item Microsoft Cloud für Retail
-				\begin{itemize}
-					\item Microsoft will hierbei eine Cloud-Lösung für Einkaufsladenbesitzer einführen. Diese Cloud-Lösung soll es ermöglichen besser Kundenfeedback
-							zu analysieren. Zudem sollen weitere Datenanalysen mit KI-Einbindung möglich gemacht werden und eine Verbesserung der Anpassungsmöglichkeit von Verbrauchern ermöglichen \cite{Microsoft-Release-Plan-2024-Wave-1.2024}.
-				\end{itemize}
-			\item Microsoft Cloud für Nachhaltigkeit
-				\begin{itemize}
-					\item Microsoft will zudem mit seinem Produkt Nachhaltigkeit fördern und die Time-to-Value, also die Zeit bis zum Ertrag minimieren. \cite{Microsoft-Release-Plan-2024-Wave-1.2024}.
-				\end{itemize}
-		\end{itemize}
-		Aus den soeben genannten Punkten zeigen ebenfalls, dass Künstliche Intelligenz und Cloud immer mehr zusammengebracht werden, sogar bishin zu Spekulationen über ein AI-as-a-Service \cite{LuckyCloud-Artikel.2024}.
-		Möglicherweise setzt sich aber auch eine Hybrid-Lösung wie Edge-Computing durch, welche darauf abzielt die Datenressourcen in die nächste Nähe des Nutzungsorts zu bringen, um einen schnelleren Zugriff zu ermöglichen und Datenhoheit zu sichern. \cite{Cao.2020}\cite{LuckyCloud-Artikel.2024}.
-		\newline
-		Was davon wirklich eintritt und wie sich Cloud in Zukunft durchsetzt, lässt sich teilweise jedoch nur spekulieren.
-
-
-
-
-	
+	% Inhalt ende
 	% ###############################################################
-	
-	\newpage
-	\pagenumbering{Roman}
-	\setcounter{page}{\theromanBeginningEnd} % Römische Seitenzahlen fortsetzen
-	\setcounter{secnumdepth}{0} % Nummerierung der Überschriften entfernt
-	\section{Quellenverzeichnis}
-	%\includepdf[pages=-]{Resources/cover}
-	\setcounter{secnumdepth}{3} % Überschriften wieder numerieren (Für den Anhang)
-	\printbibliography[heading=none]
-	\newpage
-	\appendix
-	\clearpage
-	\addcontentsline{toc}{part}{Anhang}
-	\includepdf[pages=-,picturecommand*={\label{MEINPDFDOKUMENT}}]{Content/Documents/PDF/21.08.2024 Experteninterview mit Ansgar Pahl (unterschrieben und korrigiert).pdf}
+
+	\newpage % Beginnt eine neue Seite.
+	\pagenumbering{Roman} % Setzt die Seitenzahlen auf römische Zahlen.
+	\setcounter{page}{\theromanBeginningEnd} % Setzt den Seitenzähler auf den angegebenen römischen Wert fort.
+	\setcounter{secnumdepth}{0} % Deaktiviert die Nummerierung der Überschriften.
+	\section{Quellenverzeichnis} % Erzeugt eine neue Sektion für das Quellenverzeichnis.
+	%\includepdf[pages=-]{Resources/cover} % Kommentiert: Fügt eine PDF-Datei als Deckblatt ein (alle Seiten). (wusste nicht ob das noch irgendwann mal gebracht wird, deswegen sicherheitshalber drinnen gelassen)
+	\setcounter{secnumdepth}{3} % Aktiviert die Nummerierung von Überschriften bis hinunter zu Subsubsections (für den Anhang).
+	\printbibliography[heading=none] % Gibt das Literaturverzeichnis aus, ohne eine Überschrift.
+	\newpage % Beginnt eine neue Seite.
+	\appendix % Kennzeichnet den Beginn des Anhangs.
+	\clearpage % Erzwingt das Ende der aktuellen Seite und beginnt eine neue.
+	\addcontentsline{toc}{part}{Anhang} % Fügt den Anhang zum Inhaltsverzeichnis hinzu.
+	%\includepdf[pages=-,picturecommand*={\label{MEINPDFDOKUMENT}}]{Content/Documents/PDF/21.08.2024 Experteninterview mit (unterschrieben und korrigiert).pdf} % Fügt ein externes PDF-Dokument ein und setzt ein Label.
 
 \end{document}
